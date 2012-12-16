@@ -1,0 +1,11 @@
+#! /bin/bash
+R -e "library(knitr); getwd(); knit('ps2012gesis-ma-workshop_uebungen.Rnw'); purl('ps2012gesis-ma-workshop_uebungen.Rnw')"
+pdflatex ps2012gesis-ma-workshop_uebungen.tex
+#biber ps2012gesis-ma-workshop
+pdflatex ps2012gesis-ma-workshop_uebungen.tex
+
+echo "Kopiere Uebungsmaterialien..."
+mv ps2012gesis-ma-workshop_uebungen.pdf ../../assign/
+
+echo "Kopiere R Code..."
+mv ps2012gesis-ma-workshop_uebungen.R ../R/

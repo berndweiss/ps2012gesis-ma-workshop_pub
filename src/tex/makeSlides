@@ -1,0 +1,10 @@
+#! /bin/bash
+
+## Knitr 
+R -e "library(knitr); getwd(); knit('ps2012gesis-ma-workshop.Rnw')"
+
+## Pdf erzeugen
+pdflatex ps2012gesis-ma-workshop.tex
+biber ps2012gesis-ma-workshop
+pdflatex ps2012gesis-ma-workshop.tex
+

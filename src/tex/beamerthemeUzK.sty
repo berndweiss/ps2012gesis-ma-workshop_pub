@@ -1,0 +1,325 @@
+%% UzK - A BEAMER THEME FOR THE UNIVERSITY OF COLOGNE
+%% http://solstice.github.com/uzk-theme/
+\ProvidesPackage{beamerthemeUzK}[2009/12/10]
+
+\mode<presentation>
+
+%% Erstelle logische Variablen ---------------------------------------------- %%
+\newif\ifbeamer@UzK@wiso
+\newif\ifbeamer@UzK@jura
+\newif\ifbeamer@UzK@medizin
+\newif\ifbeamer@UzK@philo
+\newif\ifbeamer@UzK@matnat
+\newif\ifbeamer@UzK@human
+\newif\ifbeamer@UzK@verw
+\newif\ifbeamer@UzK@uk
+\newif\ifbeamer@UzK@nav
+\newif\ifbeamer@UzK@latexfonts
+\newif\ifbeamer@UzK@colorful
+\newif\ifbeamer@UzK@squares
+
+%% Standardmaessig sind diese Variablen auf 'false' gesetzt. Falls keine      %%
+%% Fakultaet uebergeben wird, soll 'uk' verwendet werden: ------------------- %%
+\beamer@UzK@wisofalse
+\beamer@UzK@jurafalse
+\beamer@UzK@medizinfalse
+\beamer@UzK@philofalse
+\beamer@UzK@matnatfalse
+\beamer@UzK@humanfalse
+\beamer@UzK@verwfalse
+\beamer@UzK@uktrue
+\beamer@UzK@navfalse
+\beamer@UzK@latexfontsfalse
+\beamer@UzK@colorfulfalse
+\beamer@UzK@squaresfalse
+
+%% Definiere die moeglichen Optionen ---------------------------------------- %%
+
+%% Die Variable \fak wird in beamercolorthemeuzk.sty verwendet, um die Farben %%
+%% fuer exampleblocks zu kontrollieren. Sie wird hier bereits gesetzt falls   %%
+%% kein Fakultaetsname uebergeben wird. ------------------------------------- %%
+\newcommand{\fak}[1][]{wiso}
+\renewcommand{\fak}{wiso}
+%% Ausserdem wird die Variable \beamer@Uzk@uk auf false gesetzt, falls eine   %%
+%% Fakultaet angegeben wurde. ----------------------------------------------- %%
+\DeclareOptionBeamer{wiso}{\beamer@UzK@wisotrue \beamer@UzK@ukfalse \renewcommand{\fak}{wiso}}
+\DeclareOptionBeamer{jura}{\beamer@UzK@juratrue \beamer@UzK@ukfalse \renewcommand{\fak}{jura}}
+\DeclareOptionBeamer{medizin}{\beamer@UzK@medizintrue \beamer@UzK@ukfalse \renewcommand{\fak}{medizin}}
+\DeclareOptionBeamer{philo}{\beamer@UzK@philotrue \beamer@UzK@ukfalse \renewcommand{\fak}{philo}}
+\DeclareOptionBeamer{matnat}{\beamer@UzK@matnattrue \beamer@UzK@ukfalse \renewcommand{\fak}{matnat}}
+\DeclareOptionBeamer{human}{\beamer@UzK@humantrue \beamer@UzK@ukfalse \renewcommand{\fak}{human}}
+\DeclareOptionBeamer{verw}{\beamer@UzK@verwtrue \beamer@UzK@ukfalse \renewcommand{\fak}{verw}}
+\DeclareOptionBeamer{nav}{\beamer@UzK@navtrue}
+\DeclareOptionBeamer{latexfonts}{\beamer@UzK@latexfontstrue}
+\DeclareOptionBeamer{colorful}{\beamer@UzK@colorfultrue}
+\DeclareOptionBeamer{squares}{\beamer@UzK@squarestrue}
+
+\ProcessOptionsBeamer
+
+\usecolortheme{UzK}
+
+%% Schalte die Navigationsleiste aus ---------------------------------------- %%
+\ifbeamer@UzK@nav
+\else
+  \setbeamertemplate{navigation symbols}{}
+\fi
+
+%% Anpassen der Schrift an die Vorgaben des Corporate Designs --------------- %%
+\ifbeamer@UzK@latexfonts
+  \setbeamerfont*{frametitle}{series = \bfseries, size = \Large}
+  \setbeamerfont*{title}{series = \bfseries, size = \Large}
+  \setbeamerfont*{institute in head/foot}{series* = dc}
+  \setbeamerfont{author in head/foot}{series* = dc}
+\else
+  \RequirePackage{helvet}
+  \setbeamerfont*{frametitle}{series = \bfseries, size = \Large}
+  \setbeamerfont*{title}{series = \bfseries, size = \Large}
+  \setbeamerfont*{institute in head/foot}{series* = bc}
+  \setbeamerfont*{author in head/foot}{series* = bc}
+\fi
+
+%% Schrift im Inhaltsverzeichnis -------------------------------------------- %%
+\setbeamerfont*{section in toc}{series = \bfseries, size = \footnotesize}
+\setbeamerfont*{subsection in toc}{size = \footnotesize}
+\setbeamertemplate{section in toc}[sections numbered]
+
+%% Lege feste Schriftgroesse fuer die Fusszeile fest, damit die Schrift-      %%
+%% groesse des Dokuments als Option an \documentclass uebergeben werden       %%
+%% kann --------------------------------------------------------------------- %%
+\setbeamerfont{institute in head/foot}{size*={6pt}{6.2pt}}
+\setbeamerfont{author in head/foot}{size*={6pt}{6.2pt}}
+
+%% Aussehen der itemize-Umgebung -------------------------------------------- %%
+\ifbeamer@UzK@squares%
+  \setbeamertemplate{itemize items}[square]%
+\else%
+  \setbeamertemplate{itemize items}[circle]%
+\fi
+
+%% Einbinden des Hintergrundlogos ------------------------------------------- %%
+\defbeamertemplate*{background}{UzK theme}{%
+  \begingroup%
+  \setlength{\unitlength}{\paperwidth}%
+  \begin{picture}(1,1)%
+    \put(-0.018,0.25){
+    \fbox{\includegraphics[width=\paperwidth]{logo}}%
+  }%
+  \end{picture}%
+  \endgroup%
+}
+
+%% Definiere das kleine Siegel ---------------------------------------------- %%
+\pgfdeclareimage[height=1cm]{logosm}{logo-small}%
+  
+%% Setze die Fakultaetsnamen
+\newcommand{\uni}{Universit\"at zu K\"oln}%
+\newcommand{\wiso}{Wirtschafts- und Sozialwissenschaftliche Fakult\"at}%
+\newcommand{\jura}{Rechtswissenschaftliche Fakult\"at}%
+\newcommand{\medizin}{Medizinische Fakult\"at}%
+\newcommand{\philo}{Philosophische Fakult\"at}%
+\newcommand{\matnat}{Mathematisch-Naturwissenschaftliche Fakult\"at}%
+\newcommand{\human}{Humanwissenschaftliche Fakult\"at}%
+\newcommand{\verw}{Universit\"atsverwaltung}%
+
+%% Teste ob Babel geladen wurde und setze Fakultatsname sowie deren Uebersetzung
+%% Diese koennen hier nach Bedarf angepasst werden
+\ifdefined\addto%
+\newcommand{\UzK@captionsgerman}{%
+\renewcommand{\uni}{Universit\"at zu K\"oln}%
+\renewcommand{\wiso}{Wirtschafts- und Sozialwissenschaftliche Fakult\"at}%
+\renewcommand{\jura}{Rechtswissenschaftliche Fakult\"at}%
+\renewcommand{\medizin}{Medizinische Fakult\"at}%
+\renewcommand{\philo}{Philosophische Fakult\"at}%
+\renewcommand{\matnat}{Mathematisch-Naturwissenschaftliche Fakult\"at}%
+\renewcommand{\human}{Humanwissenschaftliche Fakult\"at}%
+\renewcommand{\verw}{Universit\"atsverwaltung}%
+}
+\newcommand{\UzK@captionsenglish}{%
+\renewcommand{\uni}{University of Cologne}%
+\renewcommand{\wiso}{Faculty of Management, Economics and Social Sciences}%
+\renewcommand{\jura}{Faculty of Law}%
+\renewcommand{\medizin}{Faculty of Medicine}%
+\renewcommand{\philo}{Faculty of Arts}%
+\renewcommand{\matnat}{Faculty of Mathematics and Natural Sciences}%
+\renewcommand{\human}{Faculty of Human Sciences}%
+\renewcommand{\verw}{University of Cologne Administration}%
+}
+\addto{\captionsgerman}{\UzK@captionsgerman}
+\addto{\captionsngerman}{\UzK@captionsgerman}
+\addto{\captionsaustrian}{\UzK@captionsgerman}
+\addto{\captionsnaustrian}{\UzK@captionsgerman}
+\addto{\captionsenglish}{\UzK@captionsenglish}
+\addto{\captionsUKenglish}{\UzK@captionsenglish}
+\addto{\captionsbritish}{\UzK@captionsenglish}
+\addto{\captionsamerican}{\UzK@captionsenglish}
+\addto{\captionsUSenglish}{\UzK@captionsenglish}
+\addto{\captionscanadian}{\UzK@captionsenglish}
+\addto{\captionsaustralian}{\UzK@captionsenglish}
+\addto{\captionsnewzealan}{\UzK@captionsenglish}
+\fi %\ifdefined\addto
+
+%% Definiere die Standardfusszeile mit allen Fakultaetsfarben
+\defbeamertemplate*{footline uk}{UzK theme}
+{
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk wiso}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk jura}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk medizin}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk philo}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk matnat}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk human}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt]{uzk verw}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt, center]{date in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+    \end{beamercolorbox}%
+  }
+
+  \vskip2pt
+  \hbox{
+    \hspace{.01\paperwidth}
+    \begin{beamercolorbox}[wd=.23\paperwidth, dp=3pt, ht=8pt]{}%
+      \usebeamerfont{institute in head/foot}\insertshortauthor
+    \end{beamercolorbox}
+  }
+  \hbox{
+    \hspace{.01\paperwidth}
+    \begin{beamercolorbox}[wd=.5\paperwidth, dp=2pt, ht=6pt]{}%
+      \usebeamerfont{institute in head/foot}\insertshortinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[wd=.23\paperwidth, dp=4pt, ht=6pt]{}%
+      \usebeamerfont{institute in head/foot}%%\uni
+    \end{beamercolorbox}
+  }
+  \hbox{
+    \begin{beamercolorbox}[wd=.23\paperwidth, dp=2pt, ht=6pt]{}%
+    \end{beamercolorbox}
+}
+%   \hbox{
+%     \hspace{.5\paperwidth}
+%     \begin{beamercolorbox}[wd=.23\paperwidth, dp=2ex, ht=2ex]{}%
+%       \emph{\insertshortinstitute}
+%     \end{beamercolorbox}
+%   }
+  \vskip-1cm
+  \llap{\pgfuseimage{logosm}\hskip-.875\paperwidth}%
+  \vspace{2pt}
+}
+
+
+%% Definiere die alternativen Fusszeilen in den jeweiligen Fakultaetsfarben
+\defbeamertemplate*{footline faculty}{UzK theme}
+{
+  \leavevmode%
+  \hbox{%
+  \ifbeamer@UzK@wiso%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk wiso}
+  \fi
+  \ifbeamer@UzK@jura%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk jura}
+  \fi
+  \ifbeamer@UzK@medizin%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk medizin}
+  \fi
+  \ifbeamer@UzK@philo%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk philo}
+  \fi
+  \ifbeamer@UzK@matnat%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk matnat}
+  \fi
+  \ifbeamer@UzK@human%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk human}
+  \fi
+  \ifbeamer@UzK@verw%
+    \begin{beamercolorbox}[wd=.875\paperwidth, ht=4.7pt]{uzk verw}
+  \fi
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.125\paperwidth, ht=4.7pt, center]{date in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+    \end{beamercolorbox}%
+      }
+  \vskip2pt
+\hbox{
+    \hspace{.01\paperwidth}
+    \begin{beamercolorbox}[wd=.23\paperwidth, dp=3pt, ht=8pt]{}%
+      \usebeamerfont{author in head/foot}\insertshortauthor
+    \end{beamercolorbox}
+  }
+  \hbox{
+    \hspace{.01\paperwidth}
+    \begin{beamercolorbox}[wd=.5\paperwidth, dp=4pt, ht=6pt]{}%
+      \usebeamerfont{institute in head/foot}\insertshortinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[]{}
+      \usebeamerfont{institute in head/foot}%%\uni
+    \end{beamercolorbox}
+  }
+\hbox{
+    \hspace{.01\paperwidth}
+    \begin{beamercolorbox}[wd=.5\paperwidth, dp=3pt, ht=5pt]{}%
+      \ifbeamer@UzK@wiso%
+        \usebeamerfont{institute in head/foot}\wiso
+      \fi
+      \ifbeamer@UzK@jura%
+        \usebeamerfont{institute in head/foot}\jura
+      \fi
+      \ifbeamer@UzK@medizin%
+        \usebeamerfont{institute in head/foot}\medizin
+      \fi
+      \ifbeamer@UzK@philo%
+        \usebeamerfont{institute in head/foot}\philo
+      \fi
+      \ifbeamer@UzK@matnat%
+        \usebeamerfont{institute in head/foot}\matnat
+      \fi
+      \ifbeamer@UzK@human%
+        \usebeamerfont{institute in head/foot}\human
+      \fi
+      \ifbeamer@UzK@verw%
+        \usebeamerfont{institute in head/foot}\verw
+      \fi
+    \end{beamercolorbox}
+  }
+  \vskip-1cm
+  \llap{\pgfuseimage{logosm}\hskip-.875\paperwidth}%
+  \vspace{2pt}
+}
+
+%% Waehle die Fusszeile entsprechend der uebergebenen Option
+\defbeamertemplate*{footline}{UzK theme}
+{
+  \ifbeamer@UzK@wiso%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@medizin%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@philo%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@matnat%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@human%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@verw%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@jura%
+    \usebeamertemplate{footline faculty}%
+  \fi
+  \ifbeamer@UzK@uk%
+    \usebeamertemplate{footline uk}%
+  \fi%
+}
+
+\mode
+<all>

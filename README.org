@@ -1,0 +1,30 @@
+#+title: Materialien zum GESIS Workshop "Grundlagen sozialwissenschaftlicher Meta-Analysen" 
+#+author: Bernd Weiß
+#+date: 13./14. Dezember 2012
+
+
+* Übersicht
+  Am 13. und 14. Dezember wurde bei der GESIS - Leibniz-Institut für Sozialwissenschaften in Köln ein Workshop über die
+  "[[http://www.gesis.org/veranstaltungen/gesis-workshops/metaanalysen/][Grundlagen sozialwissenschaftlicher Meta-Analysen]]" abgehalten. Auf dieser
+  Website finden sich (fast) alle Kursmaterialien. Alle Materialien (soweit
+  sie nicht die Rechte anderer betreffen) stehen unter einer [[http://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en][Creative Commons
+  Attribution-NonCommercial-ShareAlike 3.0 Germany Lizenz]].
+
+  Der Kurs wurde in dieser Version zum ersten Mal durchgeführt und ist an einigen
+  Stellen sicherlich noch verbesserungswürdig. Über entsprechende Rückmeldungen
+  würde ich mich freuen. 
+
+* Inhalt
+  Die Kursfolien sind im Verzeichnis =slide/= enthalten, die Übungsblätter
+  im Verzeichnis =assign=. Der R-, Stata- und LaTeX-Code ist im Verzeichnis
+  =src/= zu finden.
+
+  Um die Folien (siehe =/slide=) bzw. die Übungsblätter (siehe =/assign=)
+  erneut zu erstellen, kann das Skript =makeAll= in =/= genutzt
+  werden. Dafür wird die folgende Software benötigt: LaTeX, R, biber,
+  bash. 
+
+* Download
+  Der Download sämtlicher Materialien ist auf zweierlei Wegen möglich: 
+  - =git clone ...=
+  - Als zip-Archiv (siehe ZIP Button oberhalb der Datei-/Verzeichnisliste)

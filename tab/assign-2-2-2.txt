@@ -1,0 +1,17 @@
+. metabias zr sez, egger
+
+Note: data input format theta se_theta assumed.
+
+Egger's test for small-study effects:
+Regress standard normal deviate of intervention
+effect estimate against its standard error
+
+Number of studies =  17                                Root MSE      =   1.539
+------------------------------------------------------------------------------
+     Std_Eff |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       slope |   .1815044   .0552009     3.29   0.005     .0638465    .2991624
+        bias |  -1.112377   .7785896    -1.43   0.174    -2.771902    .5471475
+------------------------------------------------------------------------------
+
+Test of H0: no small-study effects          P = 0.174

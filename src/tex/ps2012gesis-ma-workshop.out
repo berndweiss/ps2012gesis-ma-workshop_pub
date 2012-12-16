@@ -1,0 +1,45 @@
+\BOOKMARK [1][]{Outline1}{\334bersicht und Vorbemerkungen}{}% 1
+\BOOKMARK [1][]{Outline2}{Einf\374hrung}{}% 2
+\BOOKMARK [2][]{Outline2.1}{Notwendigkeit von Forschungssynthesen}{Outline2}% 3
+\BOOKMARK [2][]{Outline2.2}{Begriffliche und konzeptionelle Grundlagen}{Outline2}% 4
+\BOOKMARK [2][]{Outline2.3}{Vorteile von Forschungssynthesen}{Outline2}% 5
+\BOOKMARK [2][]{Outline2.4}{Kritik an Forschungssynthesen und Meta-Analysen}{Outline2}% 6
+\BOOKMARK [1][]{Outline3}{Forschungssynthese als sozialwissenschaftliche Methode}{}% 7
+\BOOKMARK [2][]{Outline3.5}{Der sozialwissenschaftliche Forschungsprozess}{Outline3}% 8
+\BOOKMARK [2][]{Outline3.6}{Forschungsfrage}{Outline3}% 9
+\BOOKMARK [2][]{Outline3.7}{Datenerhebung: Literatur- und Studienrecherche}{Outline3}% 10
+\BOOKMARK [3][]{Outline3.7.1.59}{Recherchestrategien}{Outline3.7}% 11
+\BOOKMARK [3][]{Outline3.7.2.68}{Bewertung und Auswahlkriterien}{Outline3.7}% 12
+\BOOKMARK [3][]{Outline3.7.3.73}{Dokumentation der Recherche und Verwaltung der Quellen}{Outline3.7}% 13
+\BOOKMARK [3][]{Outline3.7.4.77}{Stichprobenselektivit\344t}{Outline3.7}% 14
+\BOOKMARK [2][]{Outline3.8}{Datenvercodung/-eingabe und Effektst\344rken}{Outline3}% 15
+\BOOKMARK [2][]{Outline3.9}{Effektst\344rken \(ES\)}{Outline3}% 16
+\BOOKMARK [3][]{Outline3.9.1.95}{Effektst\344rken der r-Familie}{Outline3.9}% 17
+\BOOKMARK [3][]{Outline3.9.2.101}{Effektst\344rken der d-Familie}{Outline3.9}% 18
+\BOOKMARK [3][]{Outline3.9.3.110}{Kategoriale Effektst\344rken}{Outline3.9}% 19
+\BOOKMARK [3][]{Outline3.9.4.117}{Regressionskoeffizienten}{Outline3.9}% 20
+\BOOKMARK [3][]{Outline3.9.5.126}{Effektst\344rkenkonvertierung}{Outline3.9}% 21
+\BOOKMARK [1][]{Outline4}{Statistische Verfahren der Meta-Analyse}{}% 22
+\BOOKMARK [2][]{Outline4.10}{Befundsynthese von Aggregatdaten}{Outline4}% 23
+\BOOKMARK [3][]{Outline4.10.1.136}{Fixed-effects model \(FEM\)}{Outline4.10}% 24
+\BOOKMARK [3][]{Outline4.10.2.141}{Random-effects model \(REM\)}{Outline4.10}% 25
+\BOOKMARK [2][]{Outline4.11}{Begriff der Heterogenit\344t und Diagnostik}{Outline4}% 26
+\BOOKMARK [3][]{Outline4.11.1.155}{\334berblick}{Outline4.11}% 27
+\BOOKMARK [3][]{Outline4.11.2.160}{Die Zwischenstudienvarianz}{Outline4.11}% 28
+\BOOKMARK [3][]{Outline4.11.3.164}{Die Q- Statistik}{Outline4.11}% 29
+\BOOKMARK [3][]{Outline4.11.4.172}{Weitere Heterogenit\344tsma\337e: H2 und I2}{Outline4.11}% 30
+\BOOKMARK [3][]{Outline4.11.5.179}{Zusammenfassung Heterogenit\344tsma\337e}{Outline4.11}% 31
+\BOOKMARK [2][]{Outline4.12}{Heterogenit\344tsaufkl\344rung}{Outline4}% 32
+\BOOKMARK [3][]{Outline4.12.1.188}{Meta-Regression}{Outline4.12}% 33
+\BOOKMARK [3][]{Outline4.12.2.202}{ANOVA-\344hnliche Verfahren}{Outline4.12}% 34
+\BOOKMARK [3][]{Outline4.12.3.210}{Weitere Bemerkungen zu Verfahren der Heterogenit\344tsaufkl\344rung}{Outline4.12}% 35
+\BOOKMARK [2][]{Outline4.13}{Publication Bias}{Outline4}% 36
+\BOOKMARK [2][]{Outline4.14}{Reporting Standards}{Outline4}% 37
+\BOOKMARK [2][]{Outline4.15}{Ein Ausblick auf Meta-Analysen mit Individualdaten}{Outline4}% 38
+\BOOKMARK [2][]{Outline4.16}{Literatur}{Outline4}% 39
+\BOOKMARK [1][]{Outline5}{Anhang}{}% 40
+\BOOKMARK [2][]{Outline5.18}{Meta-Analyse-Software f\374r R und Stata}{Outline5}% 41
+\BOOKMARK [2][]{Outline5.19}{R in 20 Minuten}{Outline5}% 42
+\BOOKMARK [2][]{Outline5.20}{Statistische Grundlagen}{Outline5}% 43
+\BOOKMARK [3][]{Outline5.20.1.277}{Der Standardfehler}{Outline5.20}% 44
+\BOOKMARK [3][]{Outline5.20.2.280}{Wahrscheinlichkeitsverteilungen und Q-Test}{Outline5.20}% 45

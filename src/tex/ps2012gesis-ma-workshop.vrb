@@ -1,0 +1,38 @@
+\frametitle{Bestimmung der Irrtumswahrscheinlichkeit von $Q$}
+  %%
+\begin{footnotesize}
+Mit R lässt sich für verschiedene Wahrscheinlichkeitsverteilungen die Wahrscheinlichkeit $Pr(X \leq x)$ (= F(x) =
+kumulative Verteilungsfunktion) bestimmten -- und nur diese. Da im Falle des Q-Testes aber $1-Pr(0 \leq Q)$ = p-Wert
+gesucht wird, muss folglich immer $1-Pr(0 \leq
+Q)$ gerechnet werden.
+
+%%berechnungChisq, keep.source = TRUE
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.827, 0.827, 0.827}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcomment{## Q = 10 (df = 5)}
+1-\hlfunctioncall{pchisq}(q = 10, df = 5)
+\end{alltt}
+\begin{verbatim}
+R> [1] 0.07524
+\end{verbatim}
+\begin{alltt}
+
+\hlcomment{## Q = 36.1437 (df = 5), Borenstein Tab 14.7}
+1-\hlfunctioncall{pchisq}(q = 36.1437, df = 5)
+\end{alltt}
+\begin{verbatim}
+R> [1] 8.89e-07
+\end{verbatim}
+\begin{alltt}
+
+\hlcomment{## Welches Q fuer alpha <= 0.1?}
+\hlfunctioncall{qchisq}(0.9, df  = 5)
+\end{alltt}
+\begin{verbatim}
+R> [1] 9.236
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+\end{footnotesize}

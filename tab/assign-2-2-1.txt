@@ -1,0 +1,27 @@
+. vwls yi ablat, sd(se)
+
+Variance-weighted least-squares regression           Number of obs   =      13
+Goodness-of-fit chi2(11)   =   30.73                 Model chi2(1)   =  121.50
+Prob > chi2                =  0.0012                 Prob > chi2     =  0.0000
+------------------------------------------------------------------------------
+          yi |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       ablat |  -.0292369   .0026524   -11.02   0.000    -.0344356   -.0240383
+       _cons |   .3435646   .0810488     4.24   0.000     .1847119    .5024173
+------------------------------------------------------------------------------
+
+
+. metareg yi ablat, wsse(se) mm
+
+Meta-regression                                       Number of obs  =      13
+Method of moments estimate of between-study variance  tau2           =   .0633
+% residual variation due to heterogeneity             I-squared_res  =  64.21%
+Proportion of between-study variance explained        Adj R-squared  =  79.50%
+With Knapp-Hartung modification
+------------------------------------------------------------------------------
+          yi |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       ablat |  -.0292287   .0079378    -3.68   0.004    -.0466996   -.0117579
+       _cons |   .2595437   .2738745     0.95   0.364      -.34325    .8623374
+------------------------------------------------------------------------------
+

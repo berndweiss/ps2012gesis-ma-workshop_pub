@@ -1,0 +1,391 @@
+%% http://user.uni-frankfurt.de/~muehlich/tex/wordvslatex.html
+ % Local variables:
+ % TeX-open-quote: "\"`"
+ % TeX-close-quote: "\"'"
+ % End:
+
+%% Um in Bibliographie dt. Titel von \MakeSentenceCase zu schuetzen, doppelte {{}} verwenden.
+
+
+%%global serifenlos einstellen: \renewcommand*\familydefault{\sfdefault}
+
+
+\documentclass[%
+handout%
+]{beamer}
+
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[ngerman]{babel}
+
+
+\usepackage[seriftt]{lucidabr}
+\let\digamma\relax %% muss vor lucimatx stehen; Quelle: http://article.gmane.org/gmane.comp.tex.german/11025
+%\usepackage{lucimatx}
+%\usepackage{helvet}
+
+%\usepackage{color}
+\usepackage{enumerate}
+%\usepackage{pifont}
+\usepackage[geometry]{ifsym}
+
+\usepackage{graphicx}
+\graphicspath{{fig/}}
+
+\usepackage{colortbl}
+
+%\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{rccol}
+\usepackage{dcolumn}
+\usepackage{numprint}
+
+
+\usepackage{hyperref}
+
+\usepackage{amsmath}
+
+\usepackage[normalem]{ulem}
+
+%% Reduce spacing in table of contents (beamer)
+%% http://tex.stackexchange.com/questions/51452/reduce-spacing-in-table-of-contents-beamer
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\beamer@sectionintoc}{\vskip1.0em}{\vskip0.3em}{}{}
+\makeatother
+
+\usepackage{listings}
+%\lstset{language =[LaTeX]TeX, numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,%%
+%  keywordstyle=\color{red}\bfseries,showstringspaces=true}
+  %% \lstset{}
+
+\usepackage[babel,german=quotes]{csquotes}
+
+\usepackage[style=apa, backend=biber, natbib=true, bibencoding=utf8]{biblatex}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\DeclareCaseLangs*{ngerman}
+\DeclareFieldFormat{titlecase}{#1}
+
+\addbibresource{references.bib}
+
+%% http://www.mrunix.de/forums/showthread.php?t=67386
+\DefineBibliographyStrings{ngerman}{andothers={et\addabbrvspace al\adddot}}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning,mindmap,trees,shapes,shadows,calc,arrows,automata,decorations.text}
+
+\usepackage{cclicenses}
+
+\usepackage{fp}
+
+\usepackage{dirtree}
+
+\setlength{\itemsep}{2\baselineskip}
+
+\newcommand{\myhref}[2]{\textcolor{blue}{\underline{\href{#1}{#2}}}}
+
+
+
+
+\definecolor{lightblue}{rgb}{0.8,0.85,1}
+\newcommand{\package}[1]{\textcolor{green}{\texttt{#1}}}
+\newcommand{\argmt}[1]{\textcolor{lightblue}{\texttt{#1}}}
+\newcommand{\cmnd}[1]{\colorbox{lightblue}{\lstinline|#1|}}
+
+\newcommand{\rcode}{\vspace{2ex}\hrulefill{} Berechnung mit R \hrulefill{}}
+
+\lstdefinestyle{inline}{basicstyle=\ttfamily, fontadjust=true}
+\newcommand{\code}[1]{\lstinline[style=inline]|#1|}
+
+\newcommand{\eCell}[1]{\multicolumn{#1}{c}{}}
+\newcommand{\colHeader}[1]{\multicolumn{1}{c}{#1}}
+\newcommand{\colhead}[1]{\multicolumn{1}{c}{#1}}
+
+
+
+\newcommand{\prozeff}[1]{\FPeval\result{round(((exp(#1)-1)*100):0)}$\FPprint\result\,\%$}
+
+\newcommand{\file}[1]{\emph{#1}}
+
+\urlstyle{sf}
+
+\newcommand{\inout}[3]{
+  \begin{columns}
+    \begin{column}{#1\textwidth}
+      \lstinputlisting{#3}
+    \end{column}
+    \hspace{1ex}\vrule \hspace{1ex}
+    \begin{column}{#2\textwidth}
+      \input{#3}
+    \end{column}
+  \end{columns}
+}
+
+
+\newenvironment{itemize*}%
+{\begin{itemize}%
+    \setlength{\itemsep}{10pt}%
+    \setlength{\parskip}{0pt}}%
+   {\end{itemize}}
+
+\newenvironment{enumerate*}%
+{\begin{enumerate}%
+    \setlength{\itemsep}{2ex}%
+    \setlength{\parskip}{0pt}}%
+   {\end{enumerate}}
+
+
+
+\AtBeginSection[] % Do nothing for \section*
+{
+  \begin{frame}[plain]%<beamer>
+    \frametitle{Kapitelübersicht}
+    \begin{footnotesize}
+      \tableofcontents[sectionstyle=show/shaded, subsectionstyle = show/show/shaded,  subsubsectionstyle=show/hide/hide]
+    \end{footnotesize}
+  \end{frame}
+}
+
+
+\AtBeginSubsection[] % Do nothing for \section*
+{
+  \begin{frame}[plain]%<beamer>
+    \frametitle{Abschnittsübersicht}
+    \begin{footnotesize}
+      %%\tableofcontents[sectionstyle=show/hide, subsectionstyle = show/show/hide]
+      \tableofcontents[sectionstyle=show/shaded, subsectionstyle = show/shaded/hide]
+       \end{footnotesize}
+  \end{frame}
+}
+
+%%\usecolortheme{beetle}
+%%\useoutertheme{infolines}
+%%\useinnertheme{circles}
+%%\setbeamertemplate{itemize item}[circle]
+
+\setbeamercovered{transparent}
+%% Abbildungen und Tabellen numerieren
+\setbeamertemplate{caption}[numbered]
+\usetheme[wiso]{UzK}
+
+\usepackage{helvet}
+\setbeamerfont*{frametitle}{series = \bfseries, size = \Large}
+\setbeamerfont*{title}{series = \bfseries, size = \Large}
+
+
+% \hypersetup{%
+%   pdftitle={Paarkonflikte, Kommunikation und die Stabilität von Partnerschaften},%
+%   pdfauthor={Bernd Weiß}}
+
+\title[]{\large{GESIS Workshop \newline\newline Grundlagen\\ sozialwissenschaftlicher\\ Meta-Analysen}}
+\date{13.\,/\,14. Dezember 2012}
+\author[Dr.\,Bernd Weiß, Prof.\,Dr.\,Michael Wagner]{Dr.\,Bernd Weiß \\ Prof.\,Dr.\,Michael Wagner}
+
+\institute[Universität zu Köln]{
+  Forschungsinstitut für Soziologie\\
+  Universität zu Köln\\ \vspace{2ex}
+  \url{bernd.weiss@uni-koeln.de}\\
+  \url{mwagner@wiso.uni-koeln.de}\\
+  }
+
+% Other options:
+%	style=numeric-comp,    % [1-3, 7, 8]
+%	style=alphabetic,      % [Doe92; Doe95; Jon98]
+
+% \ExecuteBibliographyOptions{
+%   sorting=nty, % Sort by name, title, year.
+%   % (bibtex, biber)
+%   bibwarn=true, %
+%   bibencoding=ascii, % (auto, ascii, inputenc, <encoding>)
+%   isbn=false,%
+%   url=false,%
+%   doi=false,%
+%   eprint=false,%
+%   firstinits=true,% Initialien Erzeugen
+% }%
+
+% Nach Fertigstellung
+% \input{biblatex-alpha.tex}
+
+<<echo=FALSE, results='hide'>>=
+opts_chunk$set(comment=NA, background="#D3D3D3", out.width='\\textwidth', tidy=FALSE)
+options(width=50)
+
+@
+
+
+
+\begin{document}
+
+
+\begin{frame}[plain]
+\titlepage
+\begin{flushright}
+  \byncsa
+\end{flushright}
+\end{frame}
+
+
+\part{Übersicht und Vorbemerkungen}\label{part:uebersicht}
+\frame{\partpage}
+
+
+\begin{frame}
+  \frametitle{Ziele des Workshops}
+  %%
+  \begin{enumerate}
+  \item Zentrale meta-analytische Konzepte und Ablauf einer Meta-Analyse verstanden haben.
+  \item Publizierte Meta-Analysen nachvollziehen und kritisch beurteilen können.
+  \item Vorgehen und Aufwand einer eigenen Meta-Analyse einschätzen können.
+  \end{enumerate}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Konzeption des Workshops}
+  %%
+  \begin{itemize}
+  \item Aufbau folgt grob dem Ablauf einer publikationsbasierten Forschungssynthese/Meta-Analyse.
+  \item Mischung zwischen (Dozenten-)Vortrag und praktischen Lerneinheiten.
+  \item Für die praktischen Übungen wird das Statistikpaket R benutzt (es wird
+    eine kurze Einleitung geben).\footnote{Es werden aber auch
+      Stata-Beispiele gezeigt.}
+  \item Folien folgen nicht dem $5 \times 5$-Schema, teilweise Skriptcharakter.
+  \item Übersicht statt Details.
+  \item Medizinische/biostatistische Perspektive auf Meta-Analyse.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Materialien des Workshops}
+  \begin{itemize}
+  \item Alle Materialien lassen sich von der folgenden Website herunterladen: \url{http://www.berndweiss.net/teaching.html}.
+  \item Alle Materialien stehen unter einer Creative Commons
+    \href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en}{Attribution-NonCommercial-ShareAlike
+      3.0 Germany} Lizenz.
+  \item Die Verzeichnisstruktur ist wie folgt:
+  \end{itemize}
+    \dirtree{%
+      .1 /.
+      .2 assign\DTcomment{Unterlagen für Übungen}.
+      .2 data\DTcomment{Alle Datensätze}.
+      .2 fig\DTcomment{Abbildungen}.
+      .2 org\DTcomment{(Öffentliche) Orga-Materialien}.
+      .2 ref\DTcomment{Literatur (PDFs)}.
+      .2 slide\DTcomment{Folien des Workshops}.
+      .2 src\DTcomment{R- und Stata-Analysecode}.
+      .2 tab\DTcomment{Tabellen, Ausgabedateien}.
+    }
+
+\end{frame}
+
+
+\begin{frame}[plain]
+  \frametitle{Zeitplan Workshop Tag 1}
+  \begin{center}
+    \begin{tabularx}{\linewidth}{@{}rr>{\raggedright\arraybackslash}X@{}}
+      \toprule
+      \multicolumn{1}{c}{Zeit}  &  Dauer  &  Thema                                                                  \\
+      \midrule
+      10:30-12:15  &    105  &  Begrüßung, Einführung, Literaturrecherche und -organisation            \\
+      12:15-13:30  &         &  \emph{Mittagspause}                                                    \\
+      13:30-15:00  &     90  &  Datenerfassung, -organisation und Effektstärken I                      \\
+      15:00-15:15  &         &  \emph{Pause}                                                           \\
+      15:15-16:30  &     75  &  Effektstärken II und Effektstärkenverteilungen I (Fixed-effect model)  \\
+      16:30-16:40  &         &  \emph{Pause}                                                           \\
+      16.40-18:15  &     95  &  Einführung in R/Stata; praktische Übungen zu den bisherigen Themen     \\
+      ab 18:15  &         &  Kölsch/Wine and Cheese                                                        \\
+      \bottomrule
+    \end{tabularx}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Zeitplan Workshop Tag 2}
+  \begin{center}
+    \begin{tabularx}{\linewidth}{@{}rr>{\raggedright\arraybackslash}X@{}}
+      \toprule
+      \multicolumn{1}{c}{Zeit}  &  Dauer  &  Thema                                                                    \\
+      \midrule
+      09:00-10:30  &     90  &  Effektstärkenverteilungen II (Random-effects model); praktische Übungen  \\
+      10:30-10:45  &         &  \emph{Pause}                                                             \\
+      10:45-12:15  &     90  &  Heterogenität, Meta-Regression, Publication bias                         \\
+      12:15-13:30  &         &  \emph{Mittagspause}                                                      \\
+      13:30-15:00  &     90  &  Praktische Übungen mit R/Stata                                           \\
+      15:00-15:15  &         &  \emph{Pause}                                                             \\
+      15.15-16.00  &     45  &  Meta-Analyse mit Individualdaten (IPD)                                   \\
+      16.00-16:45  &     45  &  Fragen, Diskussion \& Feedback                                           \\
+      \bottomrule
+    \end{tabularx}
+  \end{center}
+\end{frame}
+
+
+
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Unser Interesse an Meta-Analyse}
+
+  \begin{footnotesize}
+    \begin{itemize}
+    \item \fullcite{wagner_bilanz_2003}
+    \item \fullcite{wagner_meta-analyse_2006}
+    \item \fullcite{wagner_variation_2006}
+    \item \fullcite{weis_potentiale_2008}
+    \item \fullcite{weis_meta-analyse_2008}
+    \item \fullcite{weis_identification_2011}
+    \item \fullcite{thompson_introduction_2013}
+    \end{itemize}
+
+    \pagebreak
+
+    Gegenwärtige/Zukünftige Projekte:
+    \begin{itemize}
+    \item How employment status affects partnership stability: A meta-analysis
+      using longitudinal individual person data
+    \item Untersuchung zum Publication Bias am Beispiel von drei
+      dt. sozialwissenschaftlichen Zeitschriften (KZfSS, PVS, ZFS)
+    \item Simulationsstudie zu den Auswirkungen von unterschiedlich
+      spezifizierten EHA Regressionsmodellen im Rahmen einer Meta-Analyse
+    \item Fortsetzung der Meta-Analyse zur Ehescheidung
+    \end{itemize}
+  \end{footnotesize}
+
+\end{frame}
+
+
+
+
+%%\frame{\frametitle{Formalia}\tableofcontents[part=1]}
+\frame{\frametitle{2. Einführung und Motivation}\tableofcontents[part=2]}
+\frame{\frametitle{3. Forschungssynthese als sozialwissenschaftliche Methode}\tableofcontents[part=3]}
+\frame[plain]{\frametitle{4. Meta-Analyse}
+  \begin{footnotesize}
+    \tableofcontents[part=4]
+  \end{footnotesize}
+}
+\frame{\frametitle{5. Anhang}\tableofcontents[part=5]}
+
+
+<<child-demo, child='ps2012gesis-ma-workshop_1-einfuehr.inc.Rnw', eval=TRUE>>=
+@
+<<child-demo, child='ps2012gesis-ma-workshop_2-forschsynth.inc.Rnw', eval=TRUE>>=
+@
+<<child-demo, child='ps2012gesis-ma-workshop_3-meta.inc.Rnw', eval=TRUE>>=
+@
+<<child-demo, child='ps2012gesis-ma-workshop_4-anhang.inc.Rnw', eval=TRUE>>=
+@
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% TeX-master: "ps2012gesis-ma-workshop.Rnw"
+%%% End:

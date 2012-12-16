@@ -1,0 +1,754 @@
+% todos:
+% - fisher z transformation einbauen
+% effektstärkenkonvertierung: http://rwiki.sciviews.org/doku.php?id=packages:cran:ma_meta-analysis, http://cran.r-project.org/web/packages/metafor/metafor.pdf escalc
+
+\documentclass[normalheadings, 10pt]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[ngerman]{babel}
+
+\usepackage{csquotes}
+
+\usepackage{helvet}
+
+\usepackage{graphicx}
+\graphicspath{{fig/}}
+
+
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\title{Übungen zum GESIS Workshop \enquote{Grundlagen sozialwissenschaftlicher Meta-Analysen}}
+\author{Bernd Weiß}
+
+\usepackage{listings}
+\lstset{%
+  basicstyle=\ttfamily
+}
+
+\usepackage{geometry}
+\geometry{a4paper,left=35mm,right=20mm, top=15mm, bottom=20mm}
+
+
+\usepackage{tcolorbox}
+\tcbset{before={\par\medskip\pagebreak[0]\noindent},after={\par\medskip}}%
+% \newenvironment{rbsp}{%
+%   \tcolorbox[savedelimiter=mybox,
+%   lowerbox=ignored,
+%   colback=white,colframe=gray!75!black,fonttitle=\bfseries\textsf,title=R Beispiel]}%
+% {\endtcolorbox}
+
+% \usepackage{color}
+% \newenvironment{rbsp}{%
+%   \vspace{2ex} \hspace{-0.51cm}
+%   \vspace{-0.41cm} \noindent  \colorbox{gray}{\color{white}{\textsf{R Beispiel}}}
+%   \begin{oframed}}{\end{oframed}}
+
+\usepackage{mdframed}
+
+\newmdenv[outerlinewidth=0,
+          %% nobreak = true,
+          font=\footnotesize,
+          leftmargin=40,%
+          rightmargin=0,
+          backgroundcolor=white,%
+          outerlinecolor=black,
+          innertopmargin=-2ex,%
+          innerbottommargin=-3ex,%
+          splittopskip=1ex,
+          skipbelow=3ex,%
+          skipabove=3ex,
+          %frametitleaboveskip=-0.3cm,
+          frametitlerule=true,
+          linewidth=0.5pt,
+          frametitle={\textsf{R Beispiel}}]{rbsp}
+
+
+\newmdenv[outerlinewidth=0,
+          font=\footnotesize,
+          leftmargin=40,%
+          rightmargin=0,
+          backgroundcolor=white,%
+          outerlinecolor=black,
+          innertopmargin=1ex,%
+          innerbottommargin=1ex,%
+          splittopskip=1ex,
+          skipbelow=3ex,%
+          skipabove=3ex,
+          %frametitleaboveskip=-0.3cm,
+          frametitlerule=true,
+          linewidth=0.5pt,
+          frametitle={\textsf{Stata Beispiel}}]{statabsp}
+
+
+% \newenvironment{statabsp}{%
+%   \tcolorbox[savedelimiter=mybox,
+%   lowerbox=ignored,
+%   colback=white,colframe=gray!75!black,fonttitle=\bfseries\textsf,title=Stata Beispiel]}%
+% {\endtcolorbox}
+
+
+
+\Sexpr{opts_chunk$set(prompt=FALSE, comment="R> ", background="000000", highlight=FALSE, tidy = FALSE, fig.path='fig/')}
+
+
+<<echo=FALSE>>=
+options(width=70)
+@
+
+\hyphenation{z-Trans-for-ma-tion}
+
+\begin{document}
+
+
+\maketitle
+
+\tableofcontents
+
+\vspace{10ex}
+
+\section*{Vorbemerkungen}
+
+In den praktischen Übungen wird der Schwerpunkt auf dem Umgang mit der Software
+R liegen. In einigen (komplexeren) oder ausdrücklich meta-analytischen Fällen wird sowohl der R- als auch der
+Stata-Code vorgestellt.
+
+In den "`R Code-Boxen"' wird sowohl die R-Eingabe als auch die -Ausgabe
+("`Output"') dargestellt. Sämtliche Ausgaben (meistens die Ergebnisse von
+Berechnungen) beginnen mit dem sogenannten "`R prompt"': \texttt{R> }. Manchmal
+wird nach dem Prompt noch eine Zahl in eckigen Klammern dargestellt, etwa
+\texttt{R> [1]}. Für Vektoren (also mehrere Zahlen) geben die Zahlen in den
+eckigen Klammern an, das wievielte Element am Anfang der jeweiligen Zeile zu
+finden ist (siehe bspw. Aufgabe 1-1-3).
+
+Es werden zahlreiche neue R-/Stata-Befehle eingeführt. In der
+Aufgabenbeschreibung wird ein neuer Befehl mindestens einmal aufgeführt, aber
+zumeist nicht weiter erläutert. Zusätzliche Hinweise zur Verwendung der Befehle
+finden sich dann im Programmcode in den Kommentaren.
+
+%Code extraction assignmentsession..chunk, assing-2.1.a
+% tag-teil-laufendenummer
+
+
+
+\section{Übung 1-1}
+
+\subsection{Der erste Kontakt mit R}
+
+
+\paragraph{Aufgabe 1-1-1} Berechnen Sie die Summe aus 123 + 789 und weisen Sie das Ergebnis einer
+  Variablen \code{x} zu. Tippen Sie anschließend \code{x} ein und lassen Sie
+  sich das Ergebnis Ihrer Berechnung anzeigen.
+
+\begin{rbsp}
+<<assign-1-1-1>>=
+x <- 123 + 789
+x
+
+@
+\end{rbsp}
+
+
+\paragraph{Aufgabe 1-1-2} Bestimmen Sie das Quadrat von \code{x}, also
+\verb|x^2| (das Zeichen \code{\^} finden sie links oben, unterhalb der
+ESC-Taste).
+
+\begin{rbsp}
+<<assign-1-1-2>>=
+x^2
+@
+\end{rbsp}
+
+
+\paragraph{Aufgabe 1-1-3} Erzeugen Sie mit dem Ausdruck \code{1:10} die
+Zahlensequenz von 1 bis 10 und weisen Sie diese der Variablen \code{myseq}
+zu. Berechnen Sie anschließend die quadrierte Inverse (für $a$ ist das
+$1/a^2$) für jedes Element des Vektors.
+
+\begin{rbsp}
+<<assign-1-1-3>>=
+myseq <- 1:10
+1/(myseq^2)
+@
+\end{rbsp}
+
+
+\subsection{Effektstärken}
+
+\paragraph{Aufgabe 1-1-4} In einer Studie werden zwei Gruppen bezüglich ihres Mittelwertes
+  verglichen. Sie finden Angaben zu den beiden Mittelwerten, $Y_1 = 103$ und
+  $Y_2=100$, den beiden Standardabweichungen, $S_1=5.5$ und $S_2=4.5$, sowie den
+  Fallzahlen, $n_1=n_2=50$. Ermitteln Sie die unstandardisierte
+  Mittelwertdifferenz sowie deren Standardfehler. Weiterhin wird angenommen,
+  dass sich die beiden Populationsvarianzen nicht unterscheiden, also $\sigma_1=\sigma_2$
+
+\begin{rbsp}
+<<assing-1-1-4>>=
+y1 <- 103
+y2 <- 100
+s1 <- 5.5
+s2 <- 4.5
+n1 <- n2 <- 50 ## "Doppelzuweisung"
+
+## Berechne die Mittelwertdifferenz (Eine Klammer (...)
+## um diesen Ausdruck bedeutet "print()")
+(D <- y1 - y2)
+
+s.pooled <- sqrt(((n1-1)*s1^2 + (n2-1)*s2^2)/(n1+n2-2))
+
+vd <- s.pooled^2 * (n1+n2)/(n1*n2)
+
+## Mittelwertdifferenz:
+D
+
+## Varianz:
+vd
+
+@
+\end{rbsp}
+
+
+\paragraph{Aufgabe 1-1-5} Sie erinnern sich (hoffentlich) noch daran, dass Korrelationen im Rahmen
+  einer Meta-Analyse häufig erst transformiert werden müssen (Fisher's
+  z-Trans\-for\-ma\-tion). Gegeben sind $r=0.50$ und $N=100$. Berechnen Sie z sowie
+  den dazugehörigen Standardfehler.
+
+\begin{rbsp}
+<<assign-1-1-5.1>>=
+r <- 0.50
+N <- 100
+
+r.z <- 0.5*log((1+r)/(1-r))
+r.z
+
+var.r.z <- 1/(N-3)
+var.r.z
+sqrt(var.r.z)
+
+@
+\end{rbsp}
+
+%% Paket muss 2x geladen werden, um den §"%&§$ output zu uenterdrucken...
+<<echo=FALSE, message=FALSE>>=
+library(psychometric)
+@
+
+Zum Glück muss das Rad nicht neu erfunden werden und es gibt in R bereits
+Funktionen, die die Fisher's z-Transformation durchführen. Dazu muss allerdings
+zunächst das Paket \texttt{psychometric} geladen werden.
+
+\begin{rbsp}
+<<assign-1-1-5.2, messages=FALSE, warning=FALSE>>=
+
+library(psychometric)
+
+(r.z <- r2z(r))
+SEz(N)
+z2r(r.z)
+
+@
+\end{rbsp}
+
+
+\paragraph{Aufgabe 1-1-6} Normalerweise kommt in einer Meta-Analysen nicht nur
+\emph{ein} Korrelationskoeffizient vor, sondern es gibt mehrere davon (in R spricht man
+von einem Vektor = Variable). Die bislang vorgestellten
+Vorgehensweisen/Funktionen funktionieren natürlich auch für Vektoren.
+
+\begin{rbsp}
+<<assing-1-1-6>>=
+r <- c(0.5, 0.4, 0.1)
+N <- c(100, 102, 110)
+
+r2z(r)
+SEz(N)
+
+@
+\end{rbsp}
+
+
+Auch in Stata lässt sich die Fisher's z-Transformation durchführen:
+
+
+\begin{statabsp}
+  \lstinputlisting{../stata/assign-1-1-6.do}
+\end{statabsp}
+
+
+
+\paragraph{Aufgabe 1-1-7} Zum Abschluss soll ein kurzer Ausblick auf
+Effektstärkenkonvertierungen gegeben werden. Zunächst wird ein etwas
+aufwändigeres Vorgehen beschrieben, das aber ohne die Verwendung eines
+Zusatzpaketes auskommt.\footnote{Es gibt in R auch noch das Paket
+  \texttt{compute.es}, das solche Transformationen ermöglicht.}
+
+Gegeben ist ein $ln(Odds Ratio)$ von $0.9069$, mit einer Varianz von $0.0676$, und
+diese Angaben sollen nach Cohens $d$ konvertiert werden.
+
+\begin{rbsp}
+<<assign-1-1-7.1>>=
+lnor <- 0.9069
+V.lnor <- 0.0676
+
+d <- lnor * (sqrt(3)/pi)
+d
+
+V.d <- V.lnor * (3/pi^2)
+V.d
+
+@
+\end{rbsp}
+
+
+An diesem Beispiel soll auch die Verwendung von eigenen Funktionen in R illustriert
+werden. Das heißt, es wird eine eigene "`ln(Odds Ratio) nach d"'-Funktion
+erstellt:
+
+\begin{rbsp}
+<<assign-1-1-7.2>>=
+
+lor2d <- function(lor, V){
+    d <- lor * (sqrt(3)/pi)
+    V.d <- V * (3/pi^2)
+    res <- c(d=d, Var=V.d)
+    return(res)
+}
+
+coh.d <- lor2d(lnor, V.lnor)
+coh.d
+
+coh.d[1]
+coh.d[2]
+
+@
+\end{rbsp}
+
+
+\subsection{Effektstärkenverteilungen I}
+
+Im Folgenden soll eine univariate Meta-Analyse mit den
+Daten von Aloe/Becker (2009, "`Teacher Verbal Ability and School Outcomes"')
+durchgeführt werden.
+
+
+\paragraph{Aufgabe 1-1-9} Laden Sie den Datensatz
+\texttt{uebung1-1-9\_dVerbAb.csv} (PM-Korrelationen zwischen "`teacher verbal
+ability"' und verschiedenen "`school autcomes"'; dieser Datensatz ist im
+Verzeichnis \texttt{data/} zu finden). Verwenden Sie dazu die Funktion
+\code{read.csv(\ldots)}. Die Daten liegen im csv-Format (csv = comma-separated
+values) vor. Mit dem Argument \code{file = "\ldots"} geben Sie an, wo R die
+Daten finden kann (auf den GESIS-Computern ist das sicher nicht
+\code{"../../data/"}, siehe Beispiel).
+
+In unserem Fall ist der Spaltentrenner das Semikolon (;). Denken Sie daran, dass
+Sie beim Laden des Datensatzes diesen einem R-Objekt zuweisen müssen (verwenden
+Sie z.B. den Namen \code{dfVerb}). Lassen Sie sich anschließend den Inhalt des
+Objektes \code{dfVerb} anzeigen.
+
+\begin{rbsp}
+<<assign-1-1-9>>=
+dfVerb <- read.csv(file = "../../data/uebung1-1-9_dVerbAb.csv", sep = ";")
+dfVerb
+
+@
+\end{rbsp}
+
+\pagebreak
+
+\paragraph{Aufgabe 1-1-10} Als nächstes müssen die Korrelationen
+Fisher-z-transformiert werden. Dazu verwenden wir die Funktion \code{r2z}, die
+im Paket \code{psychometric} zu finden ist. Um den Standardfehler für die neue
+Effektstärke $z_r$ zu berechnen, kann die Funktion \code{SEz} benutzt
+werden. Der Standardfehler ist in diesem Fall nur eine Funktion der Fallzahl,
+also benötigen wir nur die Variable \code{N}.
+
+\begin{rbsp}
+<<assign-1-1-10>>=
+library(psychometric)
+
+## Geben Sie einfach nur den Namen der Funktion r2z ein. Kommt Ihnen
+## das bekannt vor?
+r2z
+
+## Nun die Fisher-z-Trasformation durchfuehren. Die neue Variable soll
+## im Datensatz dfVerb gespeichert werden.
+dfVerb$z.r <- r2z(dfVerb$r)
+
+## Den Standardfehler von r.z ermitteln:
+dfVerb$se.z <- SEz(dfVerb$N)
+
+## Den erweiterten Datensatz anzeigen lassen:
+dfVerb
+
+@
+\end{rbsp}
+
+\pagebreak
+
+\paragraph{Aufgabe 1-1-11} Vor der eigentlichen Meta-Analyse untersuchen wir
+etwas genauer den Zusammenhang zwischen $r$ und $z_r$, erstellen ein Histogramm
+der $z_r$ und lernen damit einfache Grafikbefehle in R. Was fällt Ihnen auf?
+
+\begin{rbsp}
+<<assign-1-1-11.1, fig.width = 5, fig.height = 5>>=
+plot(x = dfVerb$r, y = dfVerb$z.r, xlab = "r", ylab = "Fisher's z",
+     main = "Zusammenhang zwischen r und z.r")
+
+@
+\end{rbsp}
+
+\pagebreak
+
+Als nächstes schauen wir uns die Verteilung der Effektstärken genauer
+an. Histogramme lassen sich in R mit dem Befehl \code{hist(\ldots)} erstellen.
+
+\begin{rbsp}
+<<assign-1-1-11.2, fig.width = 5, fig.height = 5>>=
+hist(dfVerb$z.r)
+@
+\end{rbsp}
+
+\pagebreak
+
+Ist die Variable normalverteilt? Es wird vermutlich auch nicht besser, wenn wir
+das Histogramm um einen Dichteplot erweitern:
+
+\begin{rbsp}
+<<assign-1-1-11.3, fig.width = 5, fig.height = 5>>=
+## Mit dem Argument freq = FALSE wird im Histogramm nicht die absolute
+## Haeufigkeit sondern die Wahrscheinlichkeitsdichte dargestellt
+## Mit xlim = ... geben wir die Begrenzungen der x-Achse an.
+hist(dfVerb$z.r, freq = FALSE, xlim = c(-0.3, 0.4), xlab = "Fisher's z",
+     ylab = "Dichte", main = "")
+
+## Zunächst wird die Wahrschenlichkeitsdichte geschaetzt
+tmp <- density(dfVerb$z.r)
+
+## Mit der lines()-Funktion wird zu einem bestehenden Plot ein Linien-
+## plot hinzugefuegt
+lines(tmp)
+@
+\end{rbsp}
+
+\pagebreak
+
+\section{Übung 2-1}
+
+\subsection{Effektstärkenverteilungen II}
+
+
+
+\paragraph{Aufgabe 2-1-1} Kommen wir nun zur eigentlichen Meta-Analyse. Wie Sie
+den Folien (Kapitel 17: Meta-Analyse-Software für R und Stata) entnehmen können
+gibt es für R mehrere Pakete, mit denen sich univariate Meta-Analysen
+durchführen lassen. Das von mir bevorzugte Paket heißt \code{meta} und die
+Funktion zur Durchführung einer Meta-Analyse heißt \code{metagen} (gen =
+generisch) .
+
+\begin{rbsp}
+<<assign-2-1-1.1>>=
+library(meta)
+
+## Ein
+metagen(TE = z.r, seTE = se.z, data = dfVerb)
+
+@
+\end{rbsp}
+
+\code{metagen()} produziert eine Menge Zahlen, daher sollen Ihnen die
+folgenden Fragen helfen, die Ausgabe zu interpretieren:
+
+\begin{itemize}
+\item Welches Effektstärkenmodell ist \emph{empirisch} angemessen? Welche
+  Heterogenitätsstatistiken geben darüber Auskunft?
+\item Ist die zusammengefasste Effektstärke statistisch signifikant?
+\item Welche Informationen liefern die beiden mit \code{\%W(fixed)} und
+  \code{\%W(random)} überschriebenen Spalten der Tabelle? Wenn Sie die beiden
+  Spalten vergleichen, was fällt Ihnen auf? Haben Sie eine Erklärung dafür?
+\end{itemize}
+
+Angenommen, Sie haben sich für den REM-Schätzer entschieden und möchten ihn nun
+in einer Publikation darstellen. Verwenden Sie dafür den transformierten Wert
+oder ist es nicht angemessener, den Gesamteffekt in die originale
+Korrelationsskala zurückzutransformieren? Korrekt, Sie möchten einen
+Korrelationskoeffizienten darstellen. Dazu müssen wir den REM Schätzer mit der
+Funktion \code{z2r} des Paketes \code{psychometric} zurücktransformieren.
+
+
+\begin{rbsp}
+<<assign-2-1-1.2>>=
+## Sie koennen den REM Schaetzer natuerlich auch von Hand eintippen, aber
+## besser ist es, das Ergebnis der Meta-Analyse in einem Objekt tmp zu
+## speichern und dieses Objekt enthaelt auch die entsprechenden Angaben
+tmp <- metagen(TE = z.r, seTE = se.z, data = dfVerb)
+
+## Mit der Funktion str() koennen Sie sich anzeigen lassen, was in tmp
+## enthalten ist. Aus Platzgruenden wird der folgende Befehl nicht ausgefuehrt:
+## str(tmp)
+
+## Sieht zunaechst verwirrend aus, aber schlussendlich findet sich in der
+## Zeile " TE.random : num 0.088" das, was wir suchen, naemlich der Name
+## des Listenelementes "TE.random".
+tmp$TE.random
+
+## Schliesslich die Ruecktransformation:
+z2r(tmp$TE.random)
+
+@
+\end{rbsp}
+
+Nach diesem (didaktisch wertvollen) Aufwand mit Fisher-z-Transformation,
+Standardfehlerberchnung und Rücktransformation möchte ich Ihnen abschließend die
+Funktion \code{metacor} vorstellen, die das alles in einer Zeile erledigt:
+
+\begin{rbsp}
+<<assign-2-1-1.3>>=
+metacor(cor = r, n = N, data = dfVerb)
+
+@
+\end{rbsp}
+
+Bevor ich die entsprechenden Schritte in Stata vorstelle, möchte ich noch zeigen,
+wie in R ein Forestplot erstellt wird. Dazu verwende ich den Befehl
+\code{forest()}. Die meisten Argumente dieser Funktion sprechen für sich
+selbst. Mit \code{hetstat = FALSE} wird verhindert, dass verschiedene
+zusätzliche Heterogenitätsstatistiken aufgeführt werden. Wenn Sie sich mit
+\code{?forest} die Hilfeseiten dieser Funktion anschauen, dann werden Sie
+feststellen, dass dieser Befehl sehr umfangreich ist.
+
+
+\begin{rbsp}
+<<assign-2-1-1.4>>=
+tmp <- metacor(cor = r, n = N, data = dfVerb)
+forest(tmp, main = "", smlab = "Fisher's z", leftcols = c("studlab"),
+       text.fixed = "FEM", text.random = "REM", pooled.total = FALSE,
+       hetstat = FALSE )
+
+@
+\end{rbsp}
+
+
+Abschließend noch das entsprechende Vorgehen in Stata. Sie müssen dazu das Stata
+add-on \code{metan} installiert haben (Installation erfolgt mit \code{ssc
+  install metan}):
+
+\begin{statabsp}
+  \lstinputlisting{../stata/assign-1-1-12.do}
+\end{statabsp}
+
+
+\begin{statabsp}
+  \begin{tiny}
+    \lstinputlisting{../../tab/assign-1-1-12.txt}
+  \end{tiny}
+\end{statabsp}
+
+Nachfolgend finden Sie Statas Ausführung eines Forestplots:
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{f_stata_forestplot}
+\end{center}
+
+\pagebreak
+
+\section{Übung 2-2}
+
+Nun wird die Durchführung einer sogenannten
+Meta-Regression erläutert. Wie bereits im Foliensatz eingeführt, werde ich dafür
+einen Datensatz verwenden, in dem die Wirksamkeit des BCG-Impfstoffs zur
+Tuberkulosebekämpfung untersucht wird.
+
+In R stellt das Paket \code{metafor} Funktionen (\code{rma()}) zur Meta-Regression bereit. In
+Stata ist dafür der Befehl \code{metareg} zuständig (ggf. mit \code{ssc install
+  metareg} installieren).
+
+
+\subsection{Meta-Regression}
+
+\paragraph{Aufgabe 2-2-1} Zunächst muss das Paket \code{metafor} und der
+Datensatz geladen werden.\footnote{Der Datensatz ist im Paket \code{metafor}
+  enthalten. Die Schritte zum Laden der Daten und der Effektstärkenberechnung
+  werden hier aber übersprungen. Weitere Details finden Sie, wenn Sie sich die
+  Hilfe für \code{?rma} anschauen.} Die hier verwendete Effektstärke ist das
+relative Risiko (genauer: $ln(RR)$), \code{yi}, und deren Varianz
+(\code{vi}). Die unabhängige Variable \code{ablat} enthält den Breitengrad als
+Maß für den Abstand zum Äquator.
+
+\begin{rbsp}
+<<assign-2-2-1.1>>=
+library(metafor)
+
+dfReg <- read.csv(file = "../../data/dBCG.csv", sep = ";")
+
+## Teile der Tabellenangaben mit -c(1,2,3,9) ausblenden
+dfReg[, -c(1,2,3,9)]
+
+@
+\end{rbsp}
+
+Nun können wir mit einem Fixed-effects-Modell beginnen. Wie oben bereits
+erwähnt, so heißt die hier verwendete R Funktion \code{rma}. Mit dem Argument
+\code{mods = $\sim$ablat} werden die Prädiktoren eingebunden (weitere
+Prädiktoren werden mit \code{+} angehängt, also \code{mods =
+  $\sim$v1+v2+v3+\ldots}). Schließlich wird mit \code{method} beschrieben,
+nach welchem Verfahren die Koeffizienten berechnet werden sollen. Hier steht
+\code{"FE"} für das Fixed-effects-Modell.
+
+Zusätzlich wird an diesem Beispiel noch die Verwendung des Befehls
+\code{summary} illustriert. Zunächst wird das Ergebnis der Regression im Objekt
+\code{bcg.fem} gespeichert und dann mit dem \code{summary}-Befehl
+ausgegeben. Wenn Sie einfach die \code{rma}-Funktion aufrufen, dann werden keine
+Modellgütestatistiken (Deviance, AIC, BIC) ausgegeben.
+
+Wiederum werden eine Menge Zahlen ausgegeben und die folgenden Fragen sollen
+Ihnen helfen, sich zu orientieren:
+\begin{itemize}
+\item Wo finden Sie die Regressionskoeffizienten des Modells? Sind diese auf dem
+  1\%-Niveau statistisch signifikant?
+\item Ist das FE Modell angemessen? Wenn nein, warum nicht?
+\end{itemize}
+
+\begin{rbsp}
+<<assign-2-2-1.2>>=
+bcg.fem <- rma(yi = yi, vi = vi, mods=~ablat, method = "FE", data = dfReg)
+summary(bcg.fem)
+
+@
+\end{rbsp}
+
+Nach dem Fixed-effects-Modell schätzen wir nun ein Mixed-effects-Modell. Dazu
+verwenden wir den \code{DL}-Schätzer (DerSimonian-Laird). Nachfolgend einige
+Fragen zu den Ergebnissen der Modellschätzung:
+\begin{itemize}
+\item Vergleichen Sie die Regressionskoeffizienten zwischen den beiden
+  Modellen. Sehen Sie Unterschiede? Vergleichen Sie auch die Standardfehler
+  (Spalte \code{se}). Sind die Standardfehler größer oder kleiner geworden?
+\item Welche zusätzliche Statistik findet sich nun in der R-Ausgabe?
+\item Schließlich die entscheidende Frage: Welches der beiden Modelle würden Sie
+  publizieren?
+\end{itemize}
+
+\begin{rbsp}
+<<assign-2-2-1.3>>=
+summary(rma(yi = yi, vi = vi, mods=~ablat, method = "DL", data = dfReg))
+
+@
+\end{rbsp}
+
+Zum Schluß noch die Befehle und die Ergebnisse der Meta-Regression in Stata. In
+Stata existiert hierfür die Funktion \code{metareg}, die ggf. noch installiert
+werden muss. In Stata gibt es (mind.) zwei Besonderheiten:
+\begin{itemize}
+\item Ein FE Model wird in Stata mit der Funktion \code{vwls} geschätzt.
+\item Stata gibt ein $R^2$ aus.
+\end{itemize}
+
+
+\begin{statabsp}
+  \lstinputlisting{../stata/assign-2-2-1.do}
+\end{statabsp}
+
+
+\begin{statabsp}
+\begin{tiny}
+  \lstinputlisting{../../tab/assign-2-2-1.txt}
+\end{tiny}
+\end{statabsp}
+
+
+
+
+
+\subsection{Publication Bias}
+
+Im letzten Übungsteil befassen wir uns mit diagnostischen Verfahren zur
+Identifikation eines möglichen Publication Bias.
+
+\paragraph{Aufgabe 2-2-2}  Erstellen Sie mit der Funktion \code{funnel} einen Funnelplot. Als
+  Argument übergeben Sie dabei ein \code{meta}-Objekt. Was denken Sie? Liegt ein
+  Publication Bias vor? Im Anhang ihres Artikels schreiben Aloe/Becker (2009) dazu:
+
+  \begin{quote}
+    \enquote{The funnel plot in Figure 2 shows the 17 data points included in the correlation analysis.
+      The EEO-study correlations are the four data points on the top of the graph, with large sample
+      sizes in comparison to the other studies.  While this plot was not strongly funnel shaped because
+      of the EEO data points, the rest of the values followed a reasonably funnel shaped pattern,
+      indicating no publication bias.}
+  \end{quote}
+
+  Und, sehen Sie das auch so?
+
+\pagebreak  
+  
+\begin{rbsp}
+<<assign-2-2-2.1>>=
+tmp <- metacor(cor = r, n = N, data = dfVerb)
+funnel(tmp)
+
+@
+\end{rbsp}
+
+
+Funnelplots lassen sich natürlich auch mit Stata erstellen. Verwenden Sie hierzu den Befehl \code{metafunnel}.
+
+\begin{statabsp}
+  \lstinputlisting{../stata/assign-2-2-2.do}
+\end{statabsp}
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{f_stata_funnelplot}
+\end{center}
+
+Funnelplots haben u.a. den Nachteil, dass ihre Interpretation sehr subjektiv
+ausfallen kann. Es gibt daher verschiedene statistische Verfahren, mit denen
+sich dieser Prozess \enquote{objektivieren} lässt.
+
+Ein gängiger Test ist der Egger-Test, der auf einer einfachen linearen Regression
+basiert. Es gibt keinen deutlichen Hinweis auf einen möglichen Publication Bias,
+wenn die Regressionsgerade durch den Ursprung läuft, also der Intercept nicht
+von Null verschieden ist.
+
+In R gibt es für diese Tests die Funktion \code{metabias} (wiederum Teil des
+\code{meta} Paketes). Hier sind verschiedene Tests implementiert und mit dem
+Argument \code{ method.bias = "linreg"} wählen wir den Egger-Test.
+
+\pagebreak
+
+Nachfolgend finden Sie die Ergebnisse der Analysen. Was denken Sie, gibt es
+Anzeichen für einen Publikation Bias? Unter dem ersten R Beispiel finden Sie
+ebenfalls die Befunde einer einfachen linearen Regression. Vergleichen Sie die
+Ergebnisse und versuchen Sie die verschiedenen Werte zuzuordnen.
+
+\begin{rbsp}
+<<assign-2-2-2.2>>=
+## Eggers Regressions-Test durchfuehren
+metabias(tmp, method.bias = "linreg")
+
+@
+\end{rbsp}
+
+\begin{rbsp}
+<<>>=
+## Eggers Regressions-Test mit den R-Standard-Funktionen durchfuehren
+dfVerb$snd <- dfVerb$z.r/dfVerb$se.z
+dfVerb$prec <- 1/dfVerb$se.z
+
+summary(lm(snd ~ prec, data = dfVerb))
+
+@
+\end{rbsp}
+
+Auch in Stata ist der Egger-Test implementiert. Er wird mit der Funktion \code{metabias} durchgeführt.
+
+\begin{statabsp}
+  \begin{tiny}
+    \lstinputlisting{../../tab/assign-2-2-2.txt}
+  \end{tiny}
+
+\end{statabsp}
+
+
+
+\end{document}

@@ -1,0 +1,1583 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{apa}
+    \entry{aloe_advances_2011}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=425a709369f3a6510300e29e0e207c48}{Williams}{W\bibinitperiod}{Malcolm}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=48f49e822ee2b99c8462aed1aa1aa881}{Vogt}{V\bibinitperiod}{W.\bibnamedelimi Paul}{W\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8d6b728abd87890540033c4e9564b058}
+      \strng{fullhash}{8d6b728abd87890540033c4e9564b058}
+      \field{sortinit}{A}
+      \field{extrayear}{1}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Advances in combining regression results in meta-analysis}
+      \field{booktitle}{The Sage Handbook of Innovation in Social Research Methods}
+      \field{title}{Advances in combining regression results in meta-analysis}
+      \field{year}{2011}
+      \field{pages}{331\bibrangedash 352}
+    \endentry
+    \entry{aloe_teacher_2009}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f5adc274eb44c91bb6a19a9f15fecbae}
+      \strng{fullhash}{f5adc274eb44c91bb6a19a9f15fecbae}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Teacher Verbal Ability and School Outcomes}
+      \field{abstract}{Many have claimed that teachers’ verbal ability is among the most important predictors of school outcomes. Teachers’ verbal ability has been thought to predict student achievement ever since the relationship was found in the classic Equality of Educational Opportunity {(EEO)} study by Coleman et al. By way of meta-analysis the authors examine the evidence on teachers’ verbal ability as a predictor of school outcomes. They find that the evidence is not as extensive as might be inferred from prior reports. Results of 19 studies indicate that teachers’ verbal ability is at best very weakly related to school outcomes, and the main evidence for this weak relationship arises from the {EEO} study. Other studies find that verbal ability is unrelated to school outcomes.}
+      \field{journaltitle}{Educational Researcher}
+      \field{month}{11}
+      \field{number}{8}
+      \field{title}{Teacher Verbal Ability and School Outcomes}
+      \field{urlday}{26}
+      \field{urlmonth}{01}
+      \field{urlyear}{2012}
+      \field{volume}{38}
+      \field{year}{2009}
+      \field{pages}{612\bibrangedash 624}
+      \verb{doi}
+      \verb 10.3102/0013189X09353939
+      \endverb
+      \verb{file}
+      \verb aloe.becker.2009-01.PDF:E:\docs\aloe.becker.2009-01.PDF:application/pdf;aloe.becker.2009-02supplement.PDF:E:\docs\aloe.becker.2009-02supplement.PDF:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://edr.sagepub.com/content/38/8/612.abstract
+      \endverb
+    \endentry
+    \entry{aloe_effect_2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ef27ad52a94135f4d125a58933685f4d}{Aloe}{A\bibinitperiod}{Ariel\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f5adc274eb44c91bb6a19a9f15fecbae}
+      \strng{fullhash}{f5adc274eb44c91bb6a19a9f15fecbae}
+      \field{sortinit}{A}
+      \field{extrayear}{2}
+      \field{labelyear}{2011}
+      \field{labeltitle}{An Effect Size for Regression Predictors in Meta-Analysis}
+      \field{abstract}{A new effect size representing the predictive power of an independent variable from a multiple regression model is presented. The index, denoted as r sp, is the semipartial correlation of the predictor with the outcome of interest. This effect size can be computed when multiple predictor variables are included in the regression model and represents a partial effect size in the correlation family. The derivations presented in this article provide the effect size and its variance. Standard errors and confidence intervals can be computed for individual r sp values. Also, meta-analysis of the semipartial correlations can proceed in a similar fashion to typical meta-analyses, where weighted analyses can be used to explore heterogeneity and to estimate central tendency and variation in the effects. The authors provide an example from a meta-analysis of studies of the relationship of teacher verbal ability to school outcomes.}
+      \field{journaltitle}{Journal of Educational and Behavioral Statistics}
+      \field{month}{06}
+      \field{title}{An Effect Size for Regression Predictors in Meta-Analysis}
+      \field{urlday}{05}
+      \field{urlmonth}{01}
+      \field{urlyear}{2012}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.3102/1076998610396901
+      \endverb
+      \verb{file}
+      \verb aloe.becker.2011-01.PDF:E:\docs\aloe.becker.2011-01.PDF:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://jeb.sagepub.com/content/early/2011/06/26/1076998610396901.abstract
+      \endverb
+    \endentry
+    \entry{apa_reporting_2008}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=f266b2ebc03efa83fef7f631c4bc3218}{{APA\bibnamedelimb Publications\bibnamedelimb and\bibnamedelimb Communications\bibnamedelimb Board\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelimb Journal\bibnamedelimb Article\bibnamedelimb Reporting\bibnamedelimb Standards}}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f266b2ebc03efa83fef7f631c4bc3218}{{APA\bibnamedelimb Publications\bibnamedelimb and\bibnamedelimb Communications\bibnamedelimb Board\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelimb Journal\bibnamedelimb Article\bibnamedelimb Reporting\bibnamedelimb Standards}}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{f266b2ebc03efa83fef7f631c4bc3218}
+      \strng{fullhash}{f266b2ebc03efa83fef7f631c4bc3218}
+      \field{sortinit}{A}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Reporting standards for research in psychology}
+      \field{issn}{1935-{990X(Electronic);0003-066X(Print)}}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{9}
+      \field{shorttitle}{Reporting standards for research in psychology}
+      \field{title}{{Reporting standards for research in psychology: Why do we need them? What might they be?}}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{pages}{839\bibrangedash 851}
+      \verb{doi}
+      \verb 10.1037/0003-066X.63.9.839
+      \endverb
+      \keyw{Meta-analysis, reporting standards, research methods}
+    \endentry
+    \entry{auspurg_what_2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1620e78950d213862c32cc8ecdadaf19}{Auspurg}{A\bibinitperiod}{Katrin}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f86897113bbee3094a3939cfc7efd986}{Hinz}{H\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1620e78950d213862c32cc8ecdadaf19}{Auspurg}{A\bibinitperiod}{Katrin}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f86897113bbee3094a3939cfc7efd986}{Hinz}{H\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0936521c31c09eaed35cf00df52d93fc}
+      \strng{fullhash}{0936521c31c09eaed35cf00df52d93fc}
+      \field{sortinit}{A}
+      \field{labelyear}{2011}
+      \field{labeltitle}{What uels Publication Bias? {T}heoretical and Empirical Analyses of Risk Factors Using the Caliper-Test}
+      \field{abstract}{Systematic research reviews have become essential in all empirical sciences. However, the validity of research syntheses is threatened by the fact that not all studies on a given topic can be summarized. Research reviews may suffer from missing data, and this is especially crucial in those cases where the selectivity of studies and their findings affects the summarized result. So-called publication bias is a type of missing data and a phenomenon that jeopardizes the validity of systematic or quantitative, as well as narrative, reviews. Publication bias exists if the preparation, submission or publication of research findings depend on characteristics of just these research results, e. g. their direction or statistical significance. This article describes methods to identify publication bias in the context of meta-analysis. It also reviews empirical studies on the prevalence of publication bias, especially in the social and economic sciences, where publication bias also seems to be prevalent. Several proposals to prevent publication bias are discussed.}
+      \field{journaltitle}{Journal of Economics and Statistics {(Jahrbuecher} fuer Nationaloekonomie und Statistik)}
+      \field{number}{5-6}
+      \field{title}{What uels Publication Bias? {T}heoretical and Empirical Analyses of Risk Factors Using the Caliper-Test}
+      \field{urlday}{18}
+      \field{urlmonth}{02}
+      \field{urlyear}{2012}
+      \field{volume}{231}
+      \field{year}{2011}
+      \field{pages}{630\bibrangedash 660}
+      \verb{url}
+      \verb http://ideas.repec.org/a/jns/jbstat/v231y2011i5-6p661-684.html
+      \endverb
+      \keyw{bw}
+    \endentry
+    \entry{becker_edf_2010}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Florida State University}%
+      }
+      \strng{namehash}{700e8be70e3b75fbf2b446fb4d157152}
+      \strng{fullhash}{700e8be70e3b75fbf2b446fb4d157152}
+      \field{sortinit}{B}
+      \field{labelyear}{2010}
+      \field{labeltitle}{{EDF} 6937 Seminar on Meta-analysis: Modeling Study Results}
+      \field{title}{{EDF} 6937 Seminar on Meta-analysis: Modeling Study Results}
+      \field{year}{2010}
+    \endentry
+    \entry{becker_synthesis_2007}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e682b46c55f97a3037a603a080974d5}{Wu}{W\bibinitperiod}{Meng-Jia}{M\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e682b46c55f97a3037a603a080974d5}{Wu}{W\bibinitperiod}{Meng-Jia}{M\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{875c57eb2eb6c127b43e5e2b2b96e177}
+      \strng{fullhash}{875c57eb2eb6c127b43e5e2b2b96e177}
+      \field{sortinit}{B}
+      \field{labelyear}{2007}
+      \field{labeltitle}{The Synthesis of Regression Slopes in Meta-Analysis}
+      \field{journaltitle}{Statistical Science}
+      \field{number}{3}
+      \field{title}{The Synthesis of Regression Slopes in Meta-Analysis}
+      \field{volume}{22}
+      \field{year}{2007}
+      \field{pages}{414\bibrangedash 429}
+    \endentry
+    \entry{blettner_vergleich_1997}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=216379a270d2e818f6be04d4d1e96327}{Blettner}{B\bibinitperiod}{Maria}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27482c3433fc543e6d2ab2c7e64d4ed9}{Sauerbrei}{S\bibinitperiod}{Willi}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6f1adfd752a0c4bd8cc5d09827aad67e}{Schlehofer}{S\bibinitperiod}{Brigitte}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af4c32be8091f07272e7e67c7294d18e}{Scheuchenpflug}{S\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eb500d1701d057cf38ebcf58273a197e}{Friedenreich}{F\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=216379a270d2e818f6be04d4d1e96327}{Blettner}{B\bibinitperiod}{Maria}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27482c3433fc543e6d2ab2c7e64d4ed9}{Sauerbrei}{S\bibinitperiod}{Willi}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6f1adfd752a0c4bd8cc5d09827aad67e}{Schlehofer}{S\bibinitperiod}{Brigitte}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af4c32be8091f07272e7e67c7294d18e}{Scheuchenpflug}{S\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eb500d1701d057cf38ebcf58273a197e}{Friedenreich}{F\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2b341e04056d82a5fc3702e23c1d8a02}
+      \strng{fullhash}{a8af05f0254433c559a54e4e1d5edf40}
+      \field{sortinit}{B}
+      \field{labelyear}{1997}
+      \field{labeltitle}{Vergleich von traditionellen Reviews, Metaanalysen und gepoolten Analysen zur Bewertung von Risikofaktoren}
+      \field{annotation}{19990411}
+      \field{journaltitle}{Informatik, Biometrie und Epidemiologie in Medizin und Biologie}
+      \field{number}{3}
+      \field{title}{Vergleich von traditionellen Reviews, Metaanalysen und gepoolten Analysen zur Bewertung von Risikofaktoren}
+      \field{volume}{28}
+      \field{year}{1997}
+      \field{pages}{148\bibrangedash 166}
+      \keyw{Soziologie; Medizinstatistik; Reviews}
+    \endentry
+    \entry{borenstein_introduction_2009}{book}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c396e1bd996e975af1bfba4cd148f686}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f427e3a0030fb0b52c1bc6056a82197}{Rothstein}{R\bibinitperiod}{Hannah\bibnamedelima R.}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c396e1bd996e975af1bfba4cd148f686}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f427e3a0030fb0b52c1bc6056a82197}{Rothstein}{R\bibinitperiod}{Hannah\bibnamedelima R.}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons}%
+      }
+      \strng{namehash}{49a44c6dc9f4350cf17ddc73c44263c5}
+      \strng{fullhash}{13e195496daeab30337c404645bf859f}
+      \field{sortinit}{B}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Introduction to meta-analysis}
+      \field{isbn}{9780470057247}
+      \field{month}{05}
+      \field{title}{Introduction to meta-analysis}
+      \field{year}{2009}
+      \keyw{Business \& Economics / Statistics, Mathematics / Probability \& Statistics / General, Medical / Biostatistics, Medical / Research, Meta-analysis, Meta-Analysis as Topic, Psychology / Statistics, Social Science / Statistics}
+    \endentry
+    \entry{chaney_student_1995}{report}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=504b9ab382aff03cba3e8b17f62fc727}{Chaney}{C\bibinitperiod}{Bradford}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=504b9ab382aff03cba3e8b17f62fc727}{Chaney}{C\bibinitperiod}{Bradford}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{504b9ab382aff03cba3e8b17f62fc727}
+      \strng{fullhash}{504b9ab382aff03cba3e8b17f62fc727}
+      \field{sortinit}{C}
+      \field{labelyear}{1995}
+      \field{labeltitle}{Student Outcomes and the Professional Preparation of Eighth-Grade Teachers in Science and Mathematics. {NSF/NELS}}
+      \field{abstract}{The purpose of this study was to investigate the importance of teachers' professional preparation in mathematics and science, particularly with respect to student outcomes as measured through student test scores. The study uses the base-line data collected in 1988 for the National Education Longitudinal Study, a national study of 24,599 students in the eighth grade. The following factors affecting science and mathematics learning are discussed in detail: student characteristics including attitudes, students' plans for the future, student behavioral characteristics, gender equity, and minorities; school environment characteristics including attention given to science and mathematics, assessment, and resources; teacher characteristics and practices including teacher preparation, cooperative learning, texts, and homework; and family environment. Other topics discussed include: teacher characteristics as measured through transcripts including types of courses taken and grade point averages; teachers' backgrounds and the classroom environment including content covered by teachers, approach to homework, teachers' use of time, teachers' attitudes, patterns in teacher and student assignments, and influence of teachers on student attitudes; and teacher's background and student outcomes including inequalities in teachers assignments and student outcomes and multiple regressions. Ten appendices include: a description of {NELS:88;} the reliability of survey estimates, a comparison of transcript-based measures against teachers' self reports, academic degrees, and teacher certification. Contains 73 references. {(JRH)}}
+      \field{shorttitle}{Student Outcomes and the Professional Preparation of Eighth-Grade Teachers in Science and Mathematics. {NSF/NELS}}
+      \field{title}{Student Outcomes and the Professional Preparation of Eighth-Grade Teachers in Science and Mathematics. {NSF/NELS:88} Teacher Transcript Analysis.}
+      \field{type}{techreport}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2012}
+      \field{year}{1995}
+      \verb{url}
+      \verb http://www.eric.ed.gov/ERICWebPortal/detail?accno=ED389530
+      \endverb
+      \keyw{Educational Environment, Grade 8, Junior High Schools, Mathematics Instruction, Science Instruction, Secondary School Teachers, Student Characteristics, Teacher Characteristics, Teacher Education, Teacher Effectiveness}
+    \endentry
+    \entry{cooper_research_2010}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Thousand Oaks, California}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{0a23139acbe0f19d8892deeedc066b4e}
+      \strng{fullhash}{0a23139acbe0f19d8892deeedc066b4e}
+      \field{sortinit}{C}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Research Synthesis and Meta-Analysis. {A} Step-by-Step Approach}
+      \field{isbn}{0-7619-0672-x}
+      \field{title}{Research Synthesis and Meta-Analysis. {A} Step-by-Step Approach}
+      \field{year}{2010}
+      \keyw{Meta-Analyse, Soziologie}
+    \endentry
+    \entry{cooper_handbook_2009}{book}{}
+      \name{labelname}{3}{uniquelist=1}{%
+        {{uniquename=1,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b76616763ab8d46a8014f6bb7047d9f5}{Valentine}{V\bibinitperiod}{Jeffrey\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{uniquelist=1}{%
+        {{uniquename=1,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b76616763ab8d46a8014f6bb7047d9f5}{Valentine}{V\bibinitperiod}{Jeffrey\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Russel Sage Foundation}%
+      }
+      \strng{namehash}{7803b7f4651fe8ec4c1272bba2586e3d}
+      \strng{fullhash}{d394995bedb13fcff1adb4501566c77b}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{labeltitle}{The Handbook of Research Synthesis and Meta-Analysis}
+      \field{annotation}{cooper.etal2009}
+      \field{title}{The Handbook of Research Synthesis and Meta-Analysis}
+      \field{year}{2009}
+      \keyw{Soziologie; Meta-Analyse}
+    \endentry
+    \entry{cooper_relative_2009}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=2368cdea6802432470181eab40a0e457}{Cooper}{C\bibinitperiod}{Harris}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=130f64edba01b22fd96300d739b7ad3c}{Patall}{P\bibinitperiod}{Erika\bibnamedelima A}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=2368cdea6802432470181eab40a0e457}{Cooper}{C\bibinitperiod}{Harris}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=130f64edba01b22fd96300d739b7ad3c}{Patall}{P\bibinitperiod}{Erika\bibnamedelima A}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c193b81774777a7af5e5b49f0faac46}
+      \strng{fullhash}{7c193b81774777a7af5e5b49f0faac46}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{labeltitle}{The relative benefits of meta-analysis conducted with individual participant data versus aggregated data}
+      \field{abstract}{The authors describe the relative benefits of conducting meta-analyses with (a) individual participant data {(IPD)} gathered from the constituent studies and (b) aggregated data {(AD)}, or the group-level statistics (in particular, effect sizes) that appear in reports of a study's results. Given that both {IPD} and {AD} are equally available, meta-analysis of {IPD} is superior to meta-analysis of {AD.} {IPD} meta-analysis permits synthesists to perform subgroup analyses not conducted by the original collectors of the data, to check the data and analyses in the original studies, to add new information to the data sets, and to use different statistical methods. However, the cost of {IPD} meta-analysis and the lack of available {IPD} data sets suggest that the best strategy currently available is to use both approaches in a complementary fashion such that the first step in conducting an {IPD} meta-analysis would be to conduct an {AD} meta-analysis. Regardless of whether a meta-analysis is conducted with {IPD} or {AD}, synthesists must remain vigilant in how they interpret their results. They must avoid ecological fallacies, Simpson's paradox, and interpretation of synthesis-generated evidence as supporting causal inferences.}
+      \field{issn}{1082-{989X}}
+      \field{journaltitle}{Psychological methods}
+      \field{note}{{PMID:} 19485627}
+      \field{number}{2}
+      \field{title}{The relative benefits of meta-analysis conducted with individual participant data versus aggregated data}
+      \field{urlday}{30}
+      \field{urlmonth}{05}
+      \field{urlyear}{2012}
+      \field{volume}{14}
+      \field{year}{2009}
+      \field{pages}{165\bibrangedash 176}
+      \verb{doi}
+      \verb 10.1037/a0015565
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/19485627
+      \endverb
+      \keyw{Data Collection, Data Interpretation, Statistical, Humans, Meta-Analysis as Topic, Models, Statistical}
+    \endentry
+    \entry{curran_integrative_2009}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=d2bfd89aa424ebf83426d60a08b68613}{Curran}{C\bibinitperiod}{Patrick\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=81780be98425f68bd4ee4630eaf4518a}{Hussong}{H\bibinitperiod}{Andrea\bibnamedelima M}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=d2bfd89aa424ebf83426d60a08b68613}{Curran}{C\bibinitperiod}{Patrick\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=81780be98425f68bd4ee4630eaf4518a}{Hussong}{H\bibinitperiod}{Andrea\bibnamedelima M}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8ccd28c791ae571b27c4c909e35036f8}
+      \strng{fullhash}{8ccd28c791ae571b27c4c909e35036f8}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Integrative data analysis}
+      \field{abstract}{There are both quantitative and methodological techniques that foster the development and maintenance of a cumulative knowledge base within the psychological sciences. Most noteworthy of these techniques is meta-analysis, which allows for the synthesis of summary statistics drawn from multiple studies when the original data are not available. However, when the original data can be obtained from multiple studies, many advantages stem from the statistical analysis of the pooled data. The authors define integrative data analysis {(IDA)} as the analysis of multiple data sets that have been pooled into one. Although variants of {IDA} have been incorporated into other scientific disciplines, the use of these techniques is much less evident in psychology. In this article the authors present an overview of {IDA} as it may be applied within the psychological sciences, discuss the relative advantages and disadvantages of {IDA}, describe analytic strategies for analyzing pooled individual data, and offer recommendations for the use of {IDA} in practice.}
+      \field{issn}{1082-{989X}}
+      \field{journaltitle}{Psychological methods}
+      \field{note}{{PMID:} 19485623}
+      \field{number}{2}
+      \field{shorttitle}{Integrative data analysis}
+      \field{title}{Integrative data analysis: the simultaneous analysis of multiple data sets}
+      \field{urlday}{30}
+      \field{urlmonth}{05}
+      \field{urlyear}{2012}
+      \field{volume}{14}
+      \field{year}{2009}
+      \field{pages}{81\bibrangedash 100}
+      \verb{doi}
+      \verb 10.1037/a0015914
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/19485623
+      \endverb
+      \keyw{Data Collection, Data Interpretation, Statistical, Humans, Meta-Analysis as Topic, Research, Research Design}
+    \endentry
+    \entry{dickersin_publication_2005}{incollection}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=3231da2c2ceb89e45d83a803f777dad1}{Dickersin}{D\bibinitperiod}{Kay}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=437e4a9e46acd3058048d83f02511e48}{Rothstein}{R\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5660a8610f3c7617fbc5030f3de19fed}{Sutton}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=3231da2c2ceb89e45d83a803f777dad1}{Dickersin}{D\bibinitperiod}{Kay}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=437e4a9e46acd3058048d83f02511e48}{Rothstein}{R\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5660a8610f3c7617fbc5030f3de19fed}{Sutton}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Chichester, England ; Hoboken, {NJ}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{ce1ba676aadc9ca8bcf5b154d837862e}
+      \strng{fullhash}{5040f43b548d1567c69b9c8cea5a8316}
+      \field{sortinit}{D}
+      \field{labelyear}{2005}
+      \field{labeltitle}{Publication Bias: Recognizing the Problem, Understanding Its Origins and Scope, and Preventing Harm}
+      \field{annotation}{Jefferson or Adams Bldg General or Area Studies Reading Rms {R853.M48} P83 2005}
+      \field{booktitle}{Publication bias in meta-analysis : prevention, assessment and adjustments}
+      \field{isbn}{0470870141 (hbk.) 9780470870143 (hbk.)}
+      \field{title}{Publication Bias: Recognizing the Problem, Understanding Its Origins and Scope, and Preventing Harm}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://www.loc.gov/catdir/toc/ecip0516/2005021394.html
+      \endverb
+      \keyw{Medicine Research Evaluation., Meta-analysis Miscellanea., Meta-analysis., Publication Bias.}
+    \endentry
+    \entry{drinkmann_methodenkritische_1990}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=987c10023b1b122d069f4b20a3f9d7c2}{Drinkmann}{D\bibinitperiod}{Arno}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=987c10023b1b122d069f4b20a3f9d7c2}{Drinkmann}{D\bibinitperiod}{Arno}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {Deutscher Studienverlag}%
+      }
+      \strng{namehash}{987c10023b1b122d069f4b20a3f9d7c2}
+      \strng{fullhash}{987c10023b1b122d069f4b20a3f9d7c2}
+      \field{sortinit}{D}
+      \field{labelyear}{1990}
+      \field{labeltitle}{Methodenkritische Untersuchungen zur Metaanalyse}
+      \field{title}{Methodenkritische Untersuchungen zur Metaanalyse}
+      \field{year}{1990}
+      \keyw{Soziologie; Meta-Analyse}
+    \endentry
+    \entry{egger_bias_1997}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=20ab7dd7bd2db918b6c8097909a834a4}{Egger}{E\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b7a409994c1a2298c31b875c7f0fce7a}{Davey\bibnamedelima Smith}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3a35acb0163f13b07a3db997b63e81ea}{Schneider}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ebf595ef18ad238968cd0634c602f191}{Minder}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=20ab7dd7bd2db918b6c8097909a834a4}{Egger}{E\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b7a409994c1a2298c31b875c7f0fce7a}{Davey\bibnamedelima Smith}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3a35acb0163f13b07a3db997b63e81ea}{Schneider}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ebf595ef18ad238968cd0634c602f191}{Minder}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{da612f72db8e890f96e77214795202d4}
+      \strng{fullhash}{49137124c717992b5accd144bb7a843e}
+      \field{sortinit}{E}
+      \field{labelyear}{1997}
+      \field{labeltitle}{Bias in meta-analysis detected by a simple, graphical test.}
+      \field{abstract}{{OBJECTIVE:} Funnel plots (plots of effect estimates against sample size) may be useful to detect bias in meta-analyses that were later contradicted by large trials. We examined whether a simple test of asymmetry of funnel plots predicts discordance of results when meta-analyses are compared to large trials, and we assessed the prevalence of bias in published meta-analyses. {DESIGN:} Medline search to identify pairs consisting of a meta-analysis and a single large trial (concordance of results was assumed if effects were in the same direction and the meta-analytic estimate was within 30\% of the trial); analysis of funnel plots from 37 meta-analyses identified from a hand search of four leading general medicine journals 1993-6 and 38 meta-analyses from the second 1996 issue of the Cochrane Database of Systematic Reviews. {MAIN} {OUTCOME} {MEASURE:} Degree of funnel plot asymmetry as measured by the intercept from regression of standard normal deviates against precision. {RESULTS:} In the eight pairs of meta-analysis and large trial that were identified (five from cardiovascular medicine, one from diabetic medicine, one from geriatric medicine, one from perinatal medicine) there were four concordant and four discordant pairs. In all cases discordance was due to meta-analyses showing larger effects. Funnel plot asymmetry was present in three out of four discordant pairs but in none of concordant pairs. In 14 (38\%) journal meta-analyses and 5 (13\%) Cochrane reviews, funnel plot asymmetry indicated that there was bias. {CONCLUSIONS:} A simple analysis of funnel plots provides a useful test for the likely presence of bias in meta-analyses, but as the capacity to detect bias will be limited when meta-analyses are based on a limited number of small trials the results from such analyses should be treated with considerable caution.}
+      \field{issn}{0959-8138}
+      \field{journaltitle}{{BMJ} : British Medical Journal}
+      \field{month}{09}
+      \field{note}{{PMID:} 9310563 {PMCID:} 2127453}
+      \field{number}{7109}
+      \field{title}{Bias in meta-analysis detected by a simple, graphical test.}
+      \field{volume}{315}
+      \field{year}{1997}
+      \field{pages}{629\bibrangedash 634}
+      \verb{file}
+      \verb egger.etal.1997.pdf:E:\docs\egger.etal.1997.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{finney_statistician_1995}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=16aceea176f76d15880d5ee8bc0aa932}{Finney}{F\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=16aceea176f76d15880d5ee8bc0aa932}{Finney}{F\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{16aceea176f76d15880d5ee8bc0aa932}
+      \strng{fullhash}{16aceea176f76d15880d5ee8bc0aa932}
+      \field{sortinit}{F}
+      \field{labelyear}{1995}
+      \field{labeltitle}{A Statistician Looks at Meta-Analysis}
+      \field{abstract}{I begin by considering origins and meanings for the term met-analysis/meta-analysis. The underlying ideas have a long history, not only in medical but also in the agricultural and social sciences. Met-analysis is a form of critical review of research on a stated topic, distinctive for its emphasis on producing quantitative conclusions. It is not in itself a specific technique, but rather an approach to aggregating information with the aid of critical deployment of standard statistical techniques. I shall discuss types of data on which met-analysis may be practised. These may be published papers or reports on past research, or the complete data on which such publications were based, whether from well-designed experiments or from other sources, or even--least satisfactorily--from spontaneously submitted information. Particular dangers are bias arising from the manner in which component studies are chosen, possibly affected by publication bias, and the pernicious influence of the modern tendency to deify the statistical significance test. A further important issue is that of the scale to be used as a measure of the effect of the treatment (or treatments) under study. I end with general comments on the conduct of met-analyses.}
+      \field{annotation}{20000110}
+      \field{journaltitle}{Journal of Clinical Epidemiology}
+      \field{number}{1}
+      \field{title}{A Statistician Looks at Meta-Analysis}
+      \field{volume}{48}
+      \field{year}{1995}
+      \field{pages}{87\bibrangedash 103}
+      \keyw{Meta-Analyse, Soziologie}
+    \endentry
+    \entry{glass_primary_1976}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b8456413302f200b213a8f95467c4083}{Glass}{G\bibinitperiod}{Gene\bibnamedelima V.}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b8456413302f200b213a8f95467c4083}{Glass}{G\bibinitperiod}{Gene\bibnamedelima V.}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b8456413302f200b213a8f95467c4083}
+      \strng{fullhash}{b8456413302f200b213a8f95467c4083}
+      \field{sortinit}{G}
+      \field{labelyear}{1976}
+      \field{labeltitle}{Primary, Secondary and Meta-Analysis of Research}
+      \field{annotation}{glass1976}
+      \field{journaltitle}{Educational Researcher}
+      \field{title}{Primary, Secondary and Meta-Analysis of Research}
+      \field{volume}{5}
+      \field{year}{1976}
+      \field{pages}{3\bibrangedash 8}
+      \keyw{Soziologie; Meta-Analyse}
+    \endentry
+    \entry{higgins_cochrane_2008}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8d74f69ce68c983a45ccd5d5de5e59b6}{Green}{G\bibinitperiod}{Sally}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8d74f69ce68c983a45ccd5d5de5e59b6}{Green}{G\bibinitperiod}{Sally}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{b0191c322f89e4d538574391cf43a8b6}
+      \strng{fullhash}{b0191c322f89e4d538574391cf43a8b6}
+      \field{sortinit}{H}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Cochrane Handbook for Systematic Reviews of Interventions}
+      \field{isbn}{0470699515}
+      \field{title}{Cochrane Handbook for Systematic Reviews of Interventions}
+      \field{year}{2008}
+    \endentry
+    \entry{higgins_quantifying_2002}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=6206914796f069a4997b1df3b00a99bf}{Thompson}{T\bibinitperiod}{Simon\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=6206914796f069a4997b1df3b00a99bf}{Thompson}{T\bibinitperiod}{Simon\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a5e629baf1063a5c60b37c02c984a478}
+      \strng{fullhash}{a5e629baf1063a5c60b37c02c984a478}
+      \field{sortinit}{H}
+      \field{labelyear}{2002}
+      \field{labeltitle}{Quantifying heterogeneity in a meta-analysis}
+      \field{annotation}{higgins.thompson2002}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{title}{Quantifying heterogeneity in a meta-analysis}
+      \field{volume}{21}
+      \field{year}{2002}
+      \field{pages}{1539\bibrangedash 1558}
+      \keyw{Meta-Analyse, Soziologie}
+    \endentry
+    \entry{huedo-medina_assessing_2006}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=5e06761a25ffd432a009a43f88aa76a4}{Huedo-Medina}{H\bibinithyphendelim M\bibinitperiod}{Tania\bibnamedelima B.}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0afbe288b9260445907903b5d1eeb237}{Botella}{B\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2c56211ffbca7dbd4e61e9dcdb6f0cf4}{Sánches-Meca}{S\bibinithyphendelim M\bibinitperiod}{Julio}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=84a1a4e8ffde81bc83ed67fd76c6deaf}{Marín-Martínez}{M\bibinithyphendelim M\bibinitperiod}{Fulgenico}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=5e06761a25ffd432a009a43f88aa76a4}{Huedo-Medina}{H\bibinithyphendelim M\bibinitperiod}{Tania\bibnamedelima B.}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0afbe288b9260445907903b5d1eeb237}{Botella}{B\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2c56211ffbca7dbd4e61e9dcdb6f0cf4}{Sánches-Meca}{S\bibinithyphendelim M\bibinitperiod}{Julio}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=84a1a4e8ffde81bc83ed67fd76c6deaf}{Marín-Martínez}{M\bibinithyphendelim M\bibinitperiod}{Fulgenico}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{21221003a26653f39e2f1654e9a612e8}
+      \strng{fullhash}{767d29daddcc89d8af89bb537ea8cdaf}
+      \field{sortinit}{H}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Assessing Heterogeneity in Meta-Analysis: Q Statistic or I2 Index?}
+      \field{journaltitle}{Psychological Methods}
+      \field{number}{2}
+      \field{title}{Assessing Heterogeneity in Meta-Analysis: Q Statistic or I2 Index?}
+      \field{volume}{11}
+      \field{year}{2006}
+      \field{pages}{193\bibrangedash 206}
+    \endentry
+    \entry{keef_meta-analysis_2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=96ad792ed05c9a1ceac5eea1cfa684b4}{Keef}{K\bibinitperiod}{Stephen\bibnamedelima P}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=63845fb37d527791ec2e3d7b4c02c8bd}{Roberts}{R\bibinitperiod}{Leigh\bibnamedelima A}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=96ad792ed05c9a1ceac5eea1cfa684b4}{Keef}{K\bibinitperiod}{Stephen\bibnamedelima P}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=63845fb37d527791ec2e3d7b4c02c8bd}{Roberts}{R\bibinitperiod}{Leigh\bibnamedelima A}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ace5a9ff5bd3c4181ccb2807e7d9cc34}
+      \strng{fullhash}{ace5a9ff5bd3c4181ccb2807e7d9cc34}
+      \field{sortinit}{K}
+      \field{labelyear}{2004}
+      \field{labeltitle}{The meta-analysis of partial effect sizes}
+      \field{abstract}{This paper discusses the synthesis of partial effect sizes derived from multivariate settings. The general statistical properties of the d-effect size are derived, extending Hedges's statement of zero-order properties. These general properties have direct relevance in the synthesis of a set of independent effect sizes arising from empirical studies predicated on a common theoretical model. We discuss possible solutions to the problem of comparing effect sizes arising from models employing differing sets of covariates. We apply the general statistical properties in the synthesis of gender performance differences in first-level economics courses at three New Zealand universities. The model of academic performance is based on Spearman's conception of general academic ability and specific ability in economics.}
+      \field{issn}{0007-1102}
+      \field{journaltitle}{The British Journal of Mathematical and Statistical Psychology}
+      \field{month}{05}
+      \field{note}{{PMID:} 15171803}
+      \field{number}{Pt 1}
+      \field{title}{The meta-analysis of partial effect sizes}
+      \field{urlday}{08}
+      \field{urlmonth}{02}
+      \field{urlyear}{2010}
+      \field{volume}{57}
+      \field{year}{2004}
+      \field{pages}{97\bibrangedash 129}
+      \verb{doi}
+      \verb 10.1348/000711004849303
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/15171803
+      \endverb
+      \keyw{Aptitude, Economics, Educational Status, Humans, Meta-Analysis, Models, Theoretical, Multivariate Analysis, order-one effect size}
+    \endentry
+    \entry{kim_standardized_2011}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8179e1c815deed898ea4be3bbfef2ddc}{Kim}{K\bibinitperiod}{Rae-Seon}{R\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8179e1c815deed898ea4be3bbfef2ddc}{Kim}{K\bibinitperiod}{Rae-Seon}{R\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Florida State University, College of Education}%
+      }
+      \strng{namehash}{8179e1c815deed898ea4be3bbfef2ddc}
+      \strng{fullhash}{8179e1c815deed898ea4be3bbfef2ddc}
+      \field{sortinit}{K}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Standardized Regression Coefficients as Indices of Effect Sizes in Meta-Analysis}
+      \field{title}{Standardized Regression Coefficients as Indices of Effect Sizes in Meta-Analysis}
+      \field{type}{phdthesis}
+      \field{year}{2011}
+    \endentry
+    \entry{kim_degree_2010}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=8179e1c815deed898ea4be3bbfef2ddc}{Kim}{K\bibinitperiod}{Rae-Seon}{R\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8179e1c815deed898ea4be3bbfef2ddc}{Kim}{K\bibinitperiod}{Rae-Seon}{R\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5ce4b28a279c5c62391d2eef3fea3c2c}
+      \strng{fullhash}{5ce4b28a279c5c62391d2eef3fea3c2c}
+      \field{sortinit}{K}
+      \field{labelyear}{2010}
+      \field{labeltitle}{The Degree of Dependence Between Multiple-Treatment Effect Sizes}
+      \field{issn}{0027-3171}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{number}{2}
+      \field{title}{The Degree of Dependence Between Multiple-Treatment Effect Sizes}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2010}
+      \field{volume}{45}
+      \field{year}{2010}
+      \field{pages}{213}
+      \verb{doi}
+      \verb 10.1080/00273171003680104
+      \endverb
+      \verb{file}
+      \verb kim.becker.2010.pdf:E:\docs\kim.becker.2010.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.informaworld.com.proxy.lib.fsu.edu/10.1080/00273171003680104
+      \endverb
+    \endentry
+    \entry{lambert_meta-analysis_1996}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=6d88a515045edb287c38ceb774484785}{Lambert}{L\bibinitperiod}{Paul\bibnamedelima C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea8760d1b52d03c0546fe1e0681ef28f}{Abrams}{A\bibinitperiod}{Keith\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6d88a515045edb287c38ceb774484785}{Lambert}{L\bibinitperiod}{Paul\bibnamedelima C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea8760d1b52d03c0546fe1e0681ef28f}{Abrams}{A\bibinitperiod}{Keith\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{99859dc69edac4784d7be54c71d6b9a9}
+      \strng{fullhash}{99859dc69edac4784d7be54c71d6b9a9}
+      \field{sortinit}{L}
+      \field{labelyear}{1996}
+      \field{labeltitle}{Meta-Analysis Using Multilevel Models}
+      \field{annotation}{lambert.abrams1996}
+      \field{journaltitle}{Multilevel Modelling Newsletter}
+      \field{number}{2}
+      \field{title}{Meta-Analysis Using Multilevel Models}
+      \field{volume}{7}
+      \field{year}{1996}
+      \field{pages}{16\bibrangedash 18}
+      \keyw{Mehrebenenanalyse, Meta-Analyse, Soziologie}
+    \endentry
+    \entry{liberati_prisma_2009}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=4c745e8fa442ed95b7f9b054f9746e10}{Liberati}{L\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=52f053b8920d5d4076a244ef065113f8}{Altman}{A\bibinitperiod}{Douglas\bibnamedelima G.}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7498488ac3d1305dbdcec477c9feebf0}{Tetzlaff}{T\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bd1df298f04702063bd16e66bf0a487d}{Mulrow}{M\bibinitperiod}{Cynthia}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1d5155e96eef09027590aff3ba08aabc}{Gøtzsche}{G\bibinitperiod}{Peter\bibnamedelima C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd6863fdb173ee5543606371dfdd8d89}{Ioannidis}{I\bibinitperiod}{John\bibnamedelimb P.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=00c09fca53e90c17c5f58df4e3685ca2}{Clarke}{C\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c98f0960445ed54ff5c9476185d391d6}{Devereaux}{D\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fc4f7a70b695be083243c9bce4d6bc8a}{Kleijnen}{K\bibinitperiod}{Jos}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af56ff14657d1110bff4b784198b0505}{Moher}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=4c745e8fa442ed95b7f9b054f9746e10}{Liberati}{L\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=52f053b8920d5d4076a244ef065113f8}{Altman}{A\bibinitperiod}{Douglas\bibnamedelima G.}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7498488ac3d1305dbdcec477c9feebf0}{Tetzlaff}{T\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bd1df298f04702063bd16e66bf0a487d}{Mulrow}{M\bibinitperiod}{Cynthia}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1d5155e96eef09027590aff3ba08aabc}{Gøtzsche}{G\bibinitperiod}{Peter\bibnamedelima C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd6863fdb173ee5543606371dfdd8d89}{Ioannidis}{I\bibinitperiod}{John\bibnamedelimb P.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=00c09fca53e90c17c5f58df4e3685ca2}{Clarke}{C\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c98f0960445ed54ff5c9476185d391d6}{Devereaux}{D\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fc4f7a70b695be083243c9bce4d6bc8a}{Kleijnen}{K\bibinitperiod}{Jos}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af56ff14657d1110bff4b784198b0505}{Moher}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d1aacd0fba76513e1dab5843d4bccd40}
+      \strng{fullhash}{f6423b082a3268f0bca751695ab9b087}
+      \field{sortinit}{L}
+      \field{labelyear}{2009}
+      \field{labeltitle}{The {PRISMA} Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions}
+      \field{issn}{1549-1277}
+      \field{journaltitle}{{PLoS} Medicine}
+      \field{number}{7}
+      \field{shorttitle}{The {PRISMA} Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions}
+      \field{title}{The {PRISMA} Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration}
+      \field{volume}{6}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1371/journal.pmed.1000100
+      \endverb
+    \endentry
+    \entry{lipsey_practical_2001}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b873184382c3d20a0560e52535855382}{Lipsey}{L\bibinitperiod}{Mark\bibnamedelima W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a5db2bfee95214c4baf3c6b55f1cac36}{Wilson}{W\bibinitperiod}{David\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b873184382c3d20a0560e52535855382}{Lipsey}{L\bibinitperiod}{Mark\bibnamedelima W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a5db2bfee95214c4baf3c6b55f1cac36}{Wilson}{W\bibinitperiod}{David\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Thousand Oaks, California}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{39c07933eb523168b29768882b0875bf}
+      \strng{fullhash}{39c07933eb523168b29768882b0875bf}
+      \field{sortinit}{L}
+      \field{labelyear}{2001}
+      \field{labeltitle}{Practical Meta-Analysis}
+      \field{annotation}{lipsey.wilson2001}
+      \field{isbn}{0-7619-2168-0}
+      \field{title}{Practical Meta-Analysis}
+      \field{year}{2001}
+      \keyw{Codierung, Meta-Analyse, Soziologie}
+    \endentry
+    \entry{lorant_socioeconomic_2003}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=f2e093fe35a389eddac2052ca4f40cd4}{Lorant}{L\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b5ed2e305bea250ad31e5a8f0947418}{Deliège}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d11bb91eccc98e3c6333461a51cb6c43}{Eaton}{E\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=84d34c519463af10b15355b5ba62e171}{Robert}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f97578887f517e6bf17e099ef202f257}{Philippot}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b0a292578f7c8cc50f3caf9f0a5338e}{Ansseau}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=f2e093fe35a389eddac2052ca4f40cd4}{Lorant}{L\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b5ed2e305bea250ad31e5a8f0947418}{Deliège}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d11bb91eccc98e3c6333461a51cb6c43}{Eaton}{E\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=84d34c519463af10b15355b5ba62e171}{Robert}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f97578887f517e6bf17e099ef202f257}{Philippot}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b0a292578f7c8cc50f3caf9f0a5338e}{Ansseau}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4bc1ae77f5ec390a13295429211102da}
+      \strng{fullhash}{db04aa8fec5ebe1881c750eba8638e4f}
+      \field{sortinit}{L}
+      \field{labelyear}{2003}
+      \field{labeltitle}{Socioeconomic Inequalities in Depression: A Meta-Analysis}
+      \field{annotation}{lorant.etal2003}
+      \field{journaltitle}{American Journal of Epidemiology}
+      \field{number}{2}
+      \field{title}{Socioeconomic Inequalities in Depression: A Meta-Analysis}
+      \field{volume}{157}
+      \field{year}{2003}
+      \field{pages}{98\bibrangedash 112}
+      \keyw{Meta-Analyse, soziale Ungleichheit, Soziologie}
+    \endentry
+    \entry{maer_network_maer_2012}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1d12e0adef280a98ace65b5cb7fea3f8}{{MEAR\bibnamedelimb Network}}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d12e0adef280a98ace65b5cb7fea3f8}{{MEAR\bibnamedelimb Network}}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{1d12e0adef280a98ace65b5cb7fea3f8}
+      \strng{fullhash}{1d12e0adef280a98ace65b5cb7fea3f8}
+      \field{sortinit}{M}
+      \field{labelyear}{2012}
+      \field{labeltitle}{MAER Network Reporting Standards}
+      \field{title}{MAER Network Reporting Standards}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2012}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.hendrix.edu/MAER-Network/post.aspx?id=62556&blogid=51160
+      \endverb
+    \endentry
+    \entry{petticrew_systematic_2006}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=d07f78cf6f8b40468e412e5f9ff6ebb7}{Petticrew}{P\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=8f9eb20320622fc892264303eafa7287}{Roberts}{R\bibinitperiod}{Helen}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=d07f78cf6f8b40468e412e5f9ff6ebb7}{Petticrew}{P\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=8f9eb20320622fc892264303eafa7287}{Roberts}{R\bibinitperiod}{Helen}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Malden}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell}%
+      }
+      \strng{namehash}{bc214c32808b64d7a4287ccb404bca81}
+      \strng{fullhash}{bc214c32808b64d7a4287ccb404bca81}
+      \field{sortinit}{P}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Systematic Reviews in the Social Sciences. {A} Practical Guide}
+      \field{title}{Systematic Reviews in the Social Sciences. {A} Practical Guide}
+      \field{year}{2006}
+    \endentry
+    \entry{pigott_advances_2012}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=fa0b8747616af4f5716db5d0368cb68a}{Pigott}{P\bibinitperiod}{Therese\bibnamedelima D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fa0b8747616af4f5716db5d0368cb68a}{Pigott}{P\bibinitperiod}{Therese\bibnamedelima D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fa0b8747616af4f5716db5d0368cb68a}
+      \strng{fullhash}{fa0b8747616af4f5716db5d0368cb68a}
+      \field{sortinit}{P}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Advances in Meta-Analysis}
+      \field{title}{Advances in Meta-Analysis}
+      \field{year}{2012}
+      \verb{file}
+      \verb Snapshot:E:\references\storage\WASX4QNN\978-1-4614-2277-8.html:text/html
+      \endverb
+      \keyw{Advances in Meta-Analysis, and Law, Behavorial Science, Education, Public Policy, Statistics (general), Statistics for Social Science}
+    \endentry
+    \entry{raudenbush_modeling_1988}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=0afa49f8ceb6e083d968a0a26b50591a}{Raudenbush}{R\bibinitperiod}{Stephen\bibnamedelima W.}{S\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=541a374e3e2c6ba009d296213f4341ee}{Kalaian}{K\bibinitperiod}{Hripsime}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=0afa49f8ceb6e083d968a0a26b50591a}{Raudenbush}{R\bibinitperiod}{Stephen\bibnamedelima W.}{S\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=541a374e3e2c6ba009d296213f4341ee}{Kalaian}{K\bibinitperiod}{Hripsime}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{558997ad8c5d1c2c218e471cc224d91b}
+      \strng{fullhash}{d01cbdd7462482c11240b0b850a0a47c}
+      \field{sortinit}{R}
+      \field{labelyear}{1988}
+      \field{labeltitle}{Modeling multivariate effect sizes.}
+      \field{issn}{1939-1455}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{1}
+      \field{title}{Modeling multivariate effect sizes.}
+      \field{urlday}{10}
+      \field{urlmonth}{07}
+      \field{urlyear}{2011}
+      \field{volume}{103}
+      \field{year}{1988}
+      \field{pages}{111\bibrangedash 120}
+      \verb{doi}
+      \verb 10.1037/0033-2909.103.1.111
+      \endverb
+      \verb{file}
+      \verb PsycNET - Display Record:E:\references\storage\7JTF978T\1988-09603-001.html:text/html;raudenbush.etal.1988.pdf:E:\docs\raudenbush.etal.1988.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://psycnet.apa.org/psycinfo/1988-09603-001
+      \endverb
+    \endentry
+    \entry{riley_meta-analysis_2010}{article}{}
+      \name{labelname}{3}{uniquelist=3}{%
+        {{uniquename=0,hash=f1caa825e4dfa58ba3214867b5891b96}{Riley}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e4e642e14a531b7a711a26b01d2ff553}{Lambert}{L\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4d3d8c5101850923e6fda2f63c679bf6}{Abo-Zaid}{A\bibinithyphendelim Z\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{uniquelist=3}{%
+        {{uniquename=0,hash=f1caa825e4dfa58ba3214867b5891b96}{Riley}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e4e642e14a531b7a711a26b01d2ff553}{Lambert}{L\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4d3d8c5101850923e6fda2f63c679bf6}{Abo-Zaid}{A\bibinithyphendelim Z\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a0d235bd3d8f2b31924295313610bd1d}
+      \strng{fullhash}{a0d235bd3d8f2b31924295313610bd1d}
+      \field{sortinit}{R}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Meta-analysis of individual participant data}
+      \field{issn}{0959-8138, 1468-5833}
+      \field{journaltitle}{{BMJ}}
+      \field{shorttitle}{Meta-analysis of individual participant data}
+      \field{title}{Meta-analysis of individual participant data: rationale, conduct, and reporting}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2011}
+      \field{volume}{340}
+      \field{year}{2010}
+      \field{pages}{c221\bibrangedash c221}
+      \verb{doi}
+      \verb 10.1136/bmj.c221
+      \endverb
+      \verb{file}
+      \verb Meta-analysis of individual participant data: rationale, conduct, and reporting | BMJ:E:\references\storage\FR6WUU5T\bmj.c221.html:text/html;riley.etal.2010-01.pdf:E:\references\storage\JJQMXUWU\riley.etal.2010-01.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bmj.com/content/340/bmj.c221.extract
+      \endverb
+    \endentry
+    \entry{riley_meta-analysis_2007}{article}{}
+      \name{labelname}{7}{uniquelist=3}{%
+        {{uniquename=0,hash=f1caa825e4dfa58ba3214867b5891b96}{Riley}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e4e642e14a531b7a711a26b01d2ff553}{Lambert}{L\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=37eca771bd014eb5358d2d3b3cdf5ea6}{Staessen}{S\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5094b0c570d0c9e74fdecdd2f394997f}{Gueyffier}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f9c5fbd040888b17f3ac00ff600969cb}{Thijs}{T\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b8757d5fe3cb8fa32173df1791d34794}{Boutitie}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{uniquelist=3}{%
+        {{uniquename=0,hash=f1caa825e4dfa58ba3214867b5891b96}{Riley}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e4e642e14a531b7a711a26b01d2ff553}{Lambert}{L\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=37eca771bd014eb5358d2d3b3cdf5ea6}{Staessen}{S\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5094b0c570d0c9e74fdecdd2f394997f}{Gueyffier}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f9c5fbd040888b17f3ac00ff600969cb}{Thijs}{T\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b8757d5fe3cb8fa32173df1791d34794}{Boutitie}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5b1ed5a42af562e9629b72a53172741a}
+      \strng{fullhash}{c6853dac1fc38778b6e9a2e9dd67794d}
+      \field{sortinit}{R}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Meta-analysis of continuous outcomes combining individual patient data and aggregate data}
+      \field{abstract}{Meta-analysis of individual patient data {(IPD)} is the gold-standard for synthesizing evidence across clinical studies. However, for some studies {IPD} may not be available and only aggregate data {(AD)}, such as a treatment effect estimate and its standard error, may be obtained. In this situation, methods for combining {IPD} and {AD} are important to utilize all the available evidence. In this paper, we develop and assess a range of statistical methods for combining {IPD} and {AD} in meta-analysis of continuous outcomes from randomized controlled {trials.The} methods take either a one-step or a two-step approach. The latter is simple, with {IPD} reduced to {AD} so that standard {AD} meta-analysis techniques can be employed. The one-step approach is more complex but offers a flexible framework to include both patient-level and trial-level parameters. It uses a dummy variable to distinguish {IPD} trials from {AD} trials and to constrain which parameters the {AD} trials estimate. We show that this is important when assessing how patient-level covariates modify treatment effect, as aggregate-level relationships across trials are subject to ecological bias and confounding. We thus develop models to separate within-trial and across-trials treatment-covariate interactions; this ensures that only {IPD} trials estimate the former, whilst both {IPD} and {AD} trials estimate the latter in addition to the pooled treatment effect and any between-study heterogeneity. Extension to multiple correlated outcomes is also considered. Ten {IPD} trials in hypertension, with blood pressure the continuous outcome of interest, are used to assess the models and identify the benefits of utilizing {AD} alongside {IPD.} Copyright (c) 2007 John Wiley \& Sons, Ltd.}
+      \field{annotation}{Journal article Stat Med. 2007 Dec 11;.}
+      \field{issn}{0277-6715 {(Print)}}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{number}{11}
+      \field{title}{Meta-analysis of continuous outcomes combining individual patient data and aggregate data}
+      \field{volume}{27}
+      \field{year}{2007}
+      \field{pages}{1870\bibrangedash 1893}
+      \verb{doi}
+      \verb 10.1002/sim.3165
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=18069721
+      \endverb
+    \endentry
+    \entry{rosenthal_contrasts_2000}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=cd93ec21901141234e5de093d1d45eb5}{Rosenthal}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af39e836729e6f45bdf96737121600e9}{Rosnow}{R\bibinitperiod}{Ralph\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=cd93ec21901141234e5de093d1d45eb5}{Rosenthal}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af39e836729e6f45bdf96737121600e9}{Rosnow}{R\bibinitperiod}{Ralph\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge u.a.}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ. Press}%
+      }
+      \strng{namehash}{dfa2015c3c4948816508010c1a7c0024}
+      \strng{fullhash}{7bde0fa0bb6153580968ce382df2c552}
+      \field{sortinit}{R}
+      \field{labelyear}{2000}
+      \field{labeltitle}{Contrasts and effect sizes in behavioral research : a correlational approach}
+      \field{annotation}{Robert Rosenthal ; Ralph L. Rosnow ; Donald B. Rubin. graph. Darst.}
+      \field{isbn}{0-521-65258-8 0-521-65980-9}
+      \field{title}{Contrasts and effect sizes in behavioral research : a correlational approach}
+      \field{year}{2000}
+    \endentry
+    \entry{simmonds_meta-analysis_2005}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=30dc658bac8a29859329a90ce751e7d3}{Simmonds}{S\bibinitperiod}{M.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a5bf7dff55205ba00789bac7a1ea6834}{Higgins}{H\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=031e43b439926f77b3bc314aa5b2cc3b}{Stewart}{S\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f990e36c3f6f01048f73a1f6ad55e39d}{Tierney}{T\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3b233705bcf4fe422756173d8109f3bc}{Clarke}{C\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9be8d2b9a2bcbe3fc4f3834c68fc4582}{Thompson}{T\bibinitperiod}{S.\bibnamedelimi G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=30dc658bac8a29859329a90ce751e7d3}{Simmonds}{S\bibinitperiod}{M.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a5bf7dff55205ba00789bac7a1ea6834}{Higgins}{H\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=031e43b439926f77b3bc314aa5b2cc3b}{Stewart}{S\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f990e36c3f6f01048f73a1f6ad55e39d}{Tierney}{T\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3b233705bcf4fe422756173d8109f3bc}{Clarke}{C\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9be8d2b9a2bcbe3fc4f3834c68fc4582}{Thompson}{T\bibinitperiod}{S.\bibnamedelimi G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ddc97aa9ebb1452a6d6fd50f68dbfc33}
+      \strng{fullhash}{1442a3ef7b9d0ff62ec29ecd0328ce85}
+      \field{sortinit}{S}
+      \field{labelyear}{2005}
+      \field{labeltitle}{Meta-analysis of individual patient data from randomized trials: a review of methods used in practice}
+      \field{abstract}{{BACKGROUND:} Meta-analyses based on individual patient data {(IPD)} are regarded as the gold standard for systematic reviews. However, the methods used for analysing and presenting results from {IPD} meta-analyses have received little discussion. {METHODS:} We review 44 {IPD} meta-analyses published during the years 1999-2001. We summarize whether they obtained all the data they sought, what types of approaches were used in the analysis, including assumptions of common or random effects, and how they examined the effects of covariates. {RESULTS:} Twenty-four out of 44 analyses focused on time-to-event outcomes, and most analyses (28) estimated treatment effects within each trial and then combined the results assuming a common treatment effect across trials. Three analyses failed to stratify by trial, analysing the data is if they came from a single mega-trial. Only nine analyses used random effects methods. Covariate-treatment interactions were generally investigated by subgrouping patients. Seven of the meta-analyses included data from less than 80\% of the randomized patients sought, but did not address the resulting potential biases. {CONCLUSIONS:} Although {IPD} meta-analyses have many advantages in assessing the effects of health care, there are several aspects that could be further developed to make fuller use of the potential of these time-consuming projects. In particular, {IPD} could be used to more fully investigate the influence of covariates on heterogeneity of treatment effects, both within and between trials. The impact of heterogeneity, or use of random effects, are seldom discussed. There is thus considerable scope for enhancing the methods of analysis and presentation of {IPD} meta-analysis.}
+      \field{journaltitle}{Clinical Trials}
+      \field{number}{3}
+      \field{title}{Meta-analysis of individual patient data from randomized trials: a review of methods used in practice}
+      \field{volume}{2}
+      \field{year}{2005}
+      \field{pages}{209\bibrangedash 217}
+      \verb{file}
+      \verb simmonds.etal.2005.pdf:E:\docs\simmonds.etal.2005.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=16279144
+      \endverb
+      \keyw{{*Meta-Analysis}, {*Randomized} Controlled Trials/classification/statistics \& numerical data, Data Interpretation, Statistical, Disease-Free Survival, Humans, Mortality, Time Factors, Treatment Outcome}
+    \endentry
+    \entry{stanley_metaregression_1989}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=e36273645d63d1408347d6922a99b26e}{Stanley}{S\bibinitperiod}{T.\bibnamedelimi D}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0877c5194e0a77a8365bced07d2f5c67}{Jarrell}{J\bibinitperiod}{Stephen\bibnamedelima B}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e36273645d63d1408347d6922a99b26e}{Stanley}{S\bibinitperiod}{T.\bibnamedelimi D}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0877c5194e0a77a8365bced07d2f5c67}{Jarrell}{J\bibinitperiod}{Stephen\bibnamedelima B}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1a16840cd46bfa0a813ab5eaa71c0a44}
+      \strng{fullhash}{1a16840cd46bfa0a813ab5eaa71c0a44}
+      \field{sortinit}{S}
+      \field{labelyear}{1989}
+      \field{labeltitle}{Meta-regression Analysis}
+      \field{abstract}{Abstract. Pedagogically, literature reviews are instrumental. They summarize the large literature written on a particular topic, give coherence to the complex, often disparate, views expressed about an issue, and serve as a springboard for new ideas. However, literature surveys rarely establish anything approximating unanimous consensus. Ironically, this is just as true for the empirical economic literature. To harmonize this dissonance, we offer a quantitative methodology for reviewing the empirical economic literature. Meta-regression analysis {(MRA)} is the regression analysis of regression analyses. {MRA} tends to objectify the review process. It studies the processes that produce empirical economic results as though they were any other social scientific phenomenon. {MRA} provides a framework for replication and offers a sensitivity analysis for model specification. In this brief essay, we propose a new method of reviewing economic literature, {MRA}, and discuss its potential.}
+      \field{issn}{1467-6419}
+      \field{journaltitle}{Journal of Economic Surveys}
+      \field{month}{06}
+      \field{number}{2}
+      \field{shorttitle}{Meta-regression Analysis}
+      \field{title}{Meta-regression Analysis: A Quantitative Method of Literature Surveys}
+      \field{urlday}{20}
+      \field{urlmonth}{01}
+      \field{urlyear}{2012}
+      \field{volume}{3}
+      \field{year}{1989}
+      \field{pages}{161\bibrangedash 170}
+      \verb{doi}
+      \verb 10.1111/j.1467-6419.1989.tb00064.x
+      \endverb
+      \verb{file}
+      \verb stanley.jarrell.1989-01.pdf:E:\docs\stanley.jarrell.1989-01.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.1989.tb00064.x/abstract
+      \endverb
+      \keyw{effect size, meta-analysis, replication, specification}
+    \endentry
+    \entry{sterne_meta-analysis_2009}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=fab7f9f7d343c0bc31f435e068e24031}{Sterne}{S\bibinitperiod}{Jonathan\bibnamedelimb A.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=1,hash=fab7f9f7d343c0bc31f435e068e24031}{Sterne}{S\bibinitperiod}{Jonathan\bibnamedelimb A.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {College Station, Tex.}%
+      }
+      \list{publisher}{1}{%
+        {Stata Press}%
+      }
+      \strng{namehash}{fab7f9f7d343c0bc31f435e068e24031}
+      \strng{fullhash}{fab7f9f7d343c0bc31f435e068e24031}
+      \field{sortinit}{S}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Meta-Analysis in Stata}
+      \field{abstract}{This collection provides detailed descriptions of both standard and advanced meta-analytic methods and their implementation in Stata. Readers will gain access to the statistical methods behind the rapid increase in the number of meta-analyses reported in the social science and medical literature. The book shows how to conduct and interpret meta-analyses as well as produce highly flexible graphical displays. Using meta-regression, it examines reasons for between-study variability in effect estimates. The book also employs advanced methods for the meta-analysis of diagnostic test accuracy studies, dose-response meta-analysis, meta-analysis with missing data, and multivariate meta-analysis.}
+      \field{shorttitle}{Meta-Analysis in Stata}
+      \field{title}{Meta-Analysis in Stata: An Updated Collection from the Stata Journal}
+      \field{year}{2009}
+    \endentry
+    \entry{sterne_regression_2005}{incollection}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=1,hash=555af391478821a1e8b0a3cbe2d59b0b}{Sterne}{S\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2f29454e6553ef6eab031956cb1f7469}{Egger}{E\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=437e4a9e46acd3058048d83f02511e48}{Rothstein}{R\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5660a8610f3c7617fbc5030f3de19fed}{Sutton}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=1,hash=555af391478821a1e8b0a3cbe2d59b0b}{Sterne}{S\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2f29454e6553ef6eab031956cb1f7469}{Egger}{E\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=437e4a9e46acd3058048d83f02511e48}{Rothstein}{R\bibinitperiod}{Hannah}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5660a8610f3c7617fbc5030f3de19fed}{Sutton}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d24d9f67049602af1968a3fdd9859d55}{Borenstein}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Chichester, England; Hoboken, {NJ}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{42b164403f02552af0be31e91b2704a0}
+      \strng{fullhash}{4386aa22b169564879248eb16e158179}
+      \field{sortinit}{S}
+      \field{labelyear}{2005}
+      \field{labeltitle}{Regression Methods to Detect Publication and Other Bias in Meta-Analysis}
+      \field{annotation}{Jefferson or Adams Bldg General or Area Studies Reading Rms {R853.M48} P83 2005}
+      \field{booktitle}{Publication bias in meta-analysis: prevention, assessment and adjustments}
+      \field{isbn}{0470870141 (hbk.) 9780470870143 (hbk.)}
+      \field{title}{Regression Methods to Detect Publication and Other Bias in Meta-Analysis}
+      \field{year}{2005}
+      \field{pages}{99\bibrangedash 110}
+      \verb{url}
+      \verb http://www.loc.gov/catdir/toc/ecip0516/2005021394.html
+      \endverb
+      \keyw{Medicine Research Evaluation., Meta-analysis Miscellanea., Meta-analysis., Publication Bias.}
+    \endentry
+    \entry{stewart_ipd_2002}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=031e43b439926f77b3bc314aa5b2cc3b}{Stewart}{S\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f990e36c3f6f01048f73a1f6ad55e39d}{Tierney}{T\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=031e43b439926f77b3bc314aa5b2cc3b}{Stewart}{S\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f990e36c3f6f01048f73a1f6ad55e39d}{Tierney}{T\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{06c09aedb5ac2f5abe064524efc0db86}
+      \strng{fullhash}{06c09aedb5ac2f5abe064524efc0db86}
+      \field{sortinit}{S}
+      \field{labelyear}{2002}
+      \field{labeltitle}{{To {IPD} or not to {IPD?} Advantages and disadvantages of systematic reviews using individual patient data}}
+      \field{abstract}{Systematic reviews and meta-analyses that obtain original research data on individual participants enrolled in trials have been described as the gold standard of review. However, they may take longer and be more resource intensive than other types of review. The authors describe potential advantages and disadvantages of the individual patient data {(IPD)} approach, including benefits from improved data quality, benefits afforded by the type of analyses that can be done, and advantages in achieving consensus around results and interpretation by an international multidisciplinary team. Disadvantages and barriers relating to resource and expertise, negotiating collaboration, and software requirements are also discussed. At the outset, reviewers should consider the methodological factors likely to influence results in their particular review setting, together with time and resource constraints, so that an active decision can be made about whether to extract data from published reports, collect additional or replacement summary data from trialists, or collect {IPD.}}
+      \field{journaltitle}{Evaluation and The Health Professions}
+      \field{number}{1}
+      \field{title}{{To {IPD} or not to {IPD?} Advantages and disadvantages of systematic reviews using individual patient data}}
+      \field{volume}{25}
+      \field{year}{2002}
+      \field{pages}{76\bibrangedash 97}
+      \verb{file}
+      \verb stewart.tierney.2002.pdf:E:\docs\stewart.tierney.2002.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=11868447
+      \endverb
+      \keyw{{*Meta-Analysis}, Data Collection/*methods, Data Interpretation, Statistical, Databases, Bibliographic, Humans, International Cooperation, Review Literature}
+    \endentry
+    \entry{stroup_meta-analysis_2000}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=9bf78b51e31b712d664c265399d61223}{Stroup}{S\bibinitperiod}{Donna\bibnamedelima F.}{D\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=616cc27278581e98d1512458a440c79a}{Berlin}{B\bibinitperiod}{Jesse\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b26ca7eb3448fd8a7579e9ba9e68f4c}{Morton}{M\bibinitperiod}{Sally\bibnamedelima C.}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=08b4c6e1a47a160b5dcf1c147bb99855}{Olkin}{O\bibinitperiod}{Ingram}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4a9135665dfdc7e69593eac77140ca55}{Williamson}{W\bibinitperiod}{David\bibnamedelima G.}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=307111f4658234c99dfa75631f277730}{Rennie}{R\bibinitperiod}{Drummond}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4171e0d5e7cb48f56947a8d6ba6396e0}{Mojer}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eb92fed9f1a9f01d9c3e3b0b27ffe61f}{Sipe}{S\bibinitperiod}{Theresa\bibnamedelima Ann}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ae33ad9a230ede716883282dfc39964}{Thacker}{T\bibinitperiod}{Stephan\bibnamedelima B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=9bf78b51e31b712d664c265399d61223}{Stroup}{S\bibinitperiod}{Donna\bibnamedelima F.}{D\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=616cc27278581e98d1512458a440c79a}{Berlin}{B\bibinitperiod}{Jesse\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b26ca7eb3448fd8a7579e9ba9e68f4c}{Morton}{M\bibinitperiod}{Sally\bibnamedelima C.}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=08b4c6e1a47a160b5dcf1c147bb99855}{Olkin}{O\bibinitperiod}{Ingram}{I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4a9135665dfdc7e69593eac77140ca55}{Williamson}{W\bibinitperiod}{David\bibnamedelima G.}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=307111f4658234c99dfa75631f277730}{Rennie}{R\bibinitperiod}{Drummond}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4171e0d5e7cb48f56947a8d6ba6396e0}{Mojer}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eb92fed9f1a9f01d9c3e3b0b27ffe61f}{Sipe}{S\bibinitperiod}{Theresa\bibnamedelima Ann}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ae33ad9a230ede716883282dfc39964}{Thacker}{T\bibinitperiod}{Stephan\bibnamedelima B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{20d7a23475511e3b68599bb6ec09c2dc}
+      \strng{fullhash}{c5006747d8b1179ce131e012e6cb44e6}
+      \field{sortinit}{S}
+      \field{labelyear}{2000}
+      \field{labeltitle}{Meta-Analysis of Observational Studies in Epidemiology. {A} Proposal for Reporting}
+      \field{annotation}{20030704}
+      \field{journaltitle}{Journal of the American Medical Association}
+      \field{number}{15}
+      \field{title}{Meta-Analysis of Observational Studies in Epidemiology. {A} Proposal for Reporting}
+      \field{volume}{283}
+      \field{year}{2000}
+      \field{pages}{2008\bibrangedash 2012}
+    \endentry
+    \entry{sutton_methods_2000}{book}{}
+      \name{labelname}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=9433613ee671f443d47620a17856bfae}{Sutton}{S\bibinitperiod}{Alex\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea8760d1b52d03c0546fe1e0681ef28f}{Abrams}{A\bibinitperiod}{Keith\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5e3898d4c3e9111b89d595cb247cadcd}{Jonas}{J\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2cbfdabaf3a0df9009d7f71e0cb90fa2}{Sheldon}{S\bibinitperiod}{Trevor\bibnamedelima A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2a2356aa0831b4382f7f6bd4d92d6865}{Song}{S\bibinitperiod}{Fujian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=9433613ee671f443d47620a17856bfae}{Sutton}{S\bibinitperiod}{Alex\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea8760d1b52d03c0546fe1e0681ef28f}{Abrams}{A\bibinitperiod}{Keith\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5e3898d4c3e9111b89d595cb247cadcd}{Jonas}{J\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2cbfdabaf3a0df9009d7f71e0cb90fa2}{Sheldon}{S\bibinitperiod}{Trevor\bibnamedelima A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2a2356aa0831b4382f7f6bd4d92d6865}{Song}{S\bibinitperiod}{Fujian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Chichester; New York}%
+      }
+      \list{publisher}{1}{%
+        {J. Wiley}%
+      }
+      \strng{namehash}{e16b3c623d2299e9912de23cfd02f659}
+      \strng{fullhash}{dc28119a154fd7b858acb39789ac3ce3}
+      \field{sortinit}{S}
+      \field{labelyear}{2000}
+      \field{labeltitle}{Methods for meta-analysis in medical research}
+      \field{annotation}{sutton.etal2000}
+      \field{isbn}{0471490660 (alk. paper)}
+      \field{series}{Wiley series in probability and mathematical statistics}
+      \field{title}{Methods for meta-analysis in medical research}
+      \field{year}{2000}
+      \verb{url}
+      \verb http://www.loc.gov/catdir/toc/onix07/00042889.html
+      \endverb
+      \keyw{Data Interpretation, Statistical., Genetic Heterogeneity., Medicine Research Evaluation., Meta-analysis., Outcome and Process Assessment {(Health} Care)., Publication Bias., Research., Survival Analysis.}
+    \endentry
+    \entry{sutton_meta-analysis_2008}{article}{}
+      \name{labelname}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=9433613ee671f443d47620a17856bfae}{Sutton}{S\bibinitperiod}{Alex\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2ec0d9d604c989c11df8de64180b141d}{Kendrick}{K\bibinitperiod}{Denise}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=92150aafb235046db8b8a2e20f17d651}{Coupland}{C\bibinitperiod}{Carol\bibnamedelima {A.C.}}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=9433613ee671f443d47620a17856bfae}{Sutton}{S\bibinitperiod}{Alex\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2ec0d9d604c989c11df8de64180b141d}{Kendrick}{K\bibinitperiod}{Denise}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=92150aafb235046db8b8a2e20f17d651}{Coupland}{C\bibinitperiod}{Carol\bibnamedelima {A.C.}}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ecfd725d6b79326ef55a5bf651fa0798}
+      \strng{fullhash}{f92b3b27cc61e67f11d367c1c1a0c583}
+      \field{sortinit}{S}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Meta-analysis of individual- and aggregate-level data}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{number}{5}
+      \field{title}{Meta-analysis of individual- and aggregate-level data}
+      \field{volume}{27}
+      \field{year}{2008}
+      \field{pages}{651\bibrangedash 669}
+    \endentry
+    \entry{thompson_introduction_2013}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=0820b6c9b2ad9d99f02ba7c4e96a7158}{Thompson}{T\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=0820b6c9b2ad9d99f02ba7c4e96a7158}{Thompson}{T\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=700e8be70e3b75fbf2b446fb4d157152}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Unpublished manuscript.}%
+      }
+      \strng{namehash}{427b130429812578ca227590e3908cd0}
+      \strng{fullhash}{427b130429812578ca227590e3908cd0}
+      \field{sortinit}{T}
+      \field{labelyear}{2013}
+      \field{labeltitle}{An Introduction to Basic Meta-analysis}
+      \field{booktitle}{Synthesizing Correlations and Regressions: {M}ethodology and Applications}
+      \field{title}{An Introduction to Basic Meta-analysis}
+      \field{year}{2013}
+    \endentry
+    \entry{thompson_impact_2013}{unpublished}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=40420f621fa2e9f7af45c0ad8cb7c4ae}{Thompson}{T\bibinitperiod}{Christopher\bibnamedelima Glen}{C\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=40420f621fa2e9f7af45c0ad8cb7c4ae}{Thompson}{T\bibinitperiod}{Christopher\bibnamedelima Glen}{C\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a6e0ea5b411daf16fd5a948b500235a6}{Becker}{B\bibinitperiod}{Betsy\bibnamedelima Jane}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e6ec40548fba9639e0f5f88334e3c0d8}
+      \strng{fullhash}{e6ec40548fba9639e0f5f88334e3c0d8}
+      \field{sortinit}{T}
+      \field{labelyear}{2013}
+      \field{labeltitle}{The Impact of Multiple Endpoint Dependency on the Statistic in Meta-analysis}
+      \field{title}{The Impact of Multiple Endpoint Dependency on the Statistic in Meta-analysis}
+      \field{year}{2013}
+    \endentry
+    \entry{thompson_how_2002}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=6206914796f069a4997b1df3b00a99bf}{Thompson}{T\bibinitperiod}{Simon\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=6206914796f069a4997b1df3b00a99bf}{Thompson}{T\bibinitperiod}{Simon\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ac9afcc4315a48aa76890bccb0d96ca}{Higgins}{H\bibinitperiod}{Julian\bibnamedelimb P.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f8ecc2987f78ce100f58dbe33e385974}
+      \strng{fullhash}{f8ecc2987f78ce100f58dbe33e385974}
+      \field{sortinit}{T}
+      \field{labelyear}{2002}
+      \field{labeltitle}{How should meta-regression analyses be undertaken and interpreted?}
+      \field{annotation}{thompson.higgins2002}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{title}{How should meta-regression analyses be undertaken and interpreted?}
+      \field{volume}{21}
+      \field{year}{2002}
+      \field{pages}{1559\bibrangedash 1573}
+      \keyw{Meta-Analyse, Meta-Regression, Soziologie}
+    \endentry
+    \entry{viechtbauer_bias_2005}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8fb2046b93076a185201e54f9ef91d63}{Viechtbauer}{V\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8fb2046b93076a185201e54f9ef91d63}{Viechtbauer}{V\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8fb2046b93076a185201e54f9ef91d63}
+      \strng{fullhash}{8fb2046b93076a185201e54f9ef91d63}
+      \field{sortinit}{V}
+      \field{labelyear}{2005}
+      \field{labeltitle}{Bias and Efficiency of Meta-Analytic Variance Estimators in the Random-Effects Model}
+      \field{abstract}{The meta-analytic random effects model assumes that the variability in effect size estimates drawn from a set of studies can be decomposed into two parts: heterogeneity due to random population effects and sampling variance. In this context, the usual goal is to estimate the central tendency and the amount of heterogeneity in the population effect sizes. The amount of heterogeneity in a set of effect sizes has implications regarding the interpretation of the meta-analytic findings and often serves as an indicator for the presence of potential moderator variables. Five population heterogeneity estimators were compared in this article analytically and via Monte Carlo simulations with respect to their bias and efficiency.}
+      \field{issn}{1076-9986, 1935-1054}
+      \field{journaltitle}{Journal of Educational and Behavioral Statistics}
+      \field{number}{3}
+      \field{title}{Bias and Efficiency of Meta-Analytic Variance Estimators in the Random-Effects Model}
+      \field{urlday}{01}
+      \field{urlmonth}{12}
+      \field{urlyear}{2012}
+      \field{volume}{30}
+      \field{year}{2005}
+      \field{pages}{261\bibrangedash 293}
+      \verb{doi}
+      \verb 10.3102/10769986030003261
+      \endverb
+      \verb{file}
+      \verb Snapshot:E:\references\storage\VWRQTXNF\261.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://jeb.sagepub.com/content/30/3/261
+      \endverb
+      \keyw{heterogeneity estimation, Meta-analysis, random-effects model}
+    \endentry
+    \entry{viechtbauer_accounting_2007}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8fb2046b93076a185201e54f9ef91d63}{Viechtbauer}{V\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8fb2046b93076a185201e54f9ef91d63}{Viechtbauer}{V\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8fb2046b93076a185201e54f9ef91d63}
+      \strng{fullhash}{8fb2046b93076a185201e54f9ef91d63}
+      \field{sortinit}{V}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Accounting for Heterogeneity via Random-Effects Models and Moderator Analyses in Meta-Analysis}
+      \field{journaltitle}{Zeitschrift für {Psychologie/Journal} of Psychology}
+      \field{number}{2}
+      \field{title}{Accounting for Heterogeneity via Random-Effects Models and Moderator Analyses in Meta-Analysis}
+      \field{volume}{215}
+      \field{year}{2007}
+      \field{pages}{104\bibrangedash 121}
+      \verb{doi}
+      \verb 10.1027/0044-3409.215.2.104
+      \endverb
+      \verb{file}
+      \verb Accounting for Heterogeneity via Random-Effects Models and Moderator Analyses in Meta-Analysis | Mendeley:E:\references\storage\2XTI5NJR\accounting-heterogeneity-via-randomeffects-models-moderator-analyses-metaanalysis.html:text/html
+      \endverb
+    \endentry
+    \entry{wagner_bilanz_2003}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \strng{fullhash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \field{sortinit}{W}
+      \field{labelyear}{2003}
+      \field{labeltitle}{{Bilanz der deutschen Scheidungsforschung. Versuch einer Meta-Analyse}}
+      \field{annotation}{wagner.weiss2003}
+      \field{journaltitle}{Zeitschrift für Soziologie}
+      \field{number}{1}
+      \field{title}{{Bilanz der deutschen Scheidungsforschung. Versuch einer Meta-Analyse}}
+      \field{volume}{32}
+      \field{year}{2003}
+      \field{pages}{29\bibrangedash 49}
+      \keyw{bw, Meta-Analyse, Soziologie}
+    \endentry
+    \entry{wagner_meta-analyse_2006}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \strng{fullhash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \field{sortinit}{W}
+      \field{extrayear}{1}
+      \field{labelyear}{2006}
+      \field{labeltitle}{{Meta-Analyse als Methode der Sozialforschung}}
+      \field{annotation}{wagner.weiss2004}
+      \field{journaltitle}{Methoden der Sozialforschung. Sonderheft 44 der Kölner Zeitschrift für Soziologie und Sozialpsychologie}
+      \field{title}{{Meta-Analyse als Methode der Sozialforschung}}
+      \field{year}{2006}
+      \field{pages}{479\bibrangedash 504}
+      \keyw{bw}
+    \endentry
+    \entry{wagner_variation_2006}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \strng{fullhash}{76dbd4fec3c3458c28b3c9eba1f965e8}
+      \field{sortinit}{W}
+      \field{extrayear}{2}
+      \field{labelyear}{2006}
+      \field{labeltitle}{{On the Variation of Divorce Risks in Europe: Findings from a Meta-Analysis of European Longitudinal Studies}}
+      \field{annotation}{wagner.weiss2004}
+      \field{journaltitle}{European Sociological Review}
+      \field{number}{5}
+      \field{title}{{On the Variation of Divorce Risks in Europe: Findings from a Meta-Analysis of European Longitudinal Studies}}
+      \field{volume}{22}
+      \field{year}{2006}
+      \field{pages}{483\bibrangedash 500}
+      \keyw{bw}
+    \endentry
+    \entry{weis_meta-analyse_2008}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b9b45733c9f93049b71df5f5b246f005}
+      \strng{fullhash}{b9b45733c9f93049b71df5f5b246f005}
+      \field{sortinit}{W}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{Meta-Analyse als Forschungssynthese in der Soziologie. Dargestellt anhand zweier Fallbeispiele zum Schulabsentismus. Inauguraldissertation zur Erlangung des Doktorgrades der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität zu Köln.}}
+      \field{title}{{Meta-Analyse als Forschungssynthese in der Soziologie. Dargestellt anhand zweier Fallbeispiele zum Schulabsentismus. Inauguraldissertation zur Erlangung des Doktorgrades der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität zu Köln.}}
+      \field{year}{2008}
+      \keyw{bw}
+    \endentry
+    \entry{weis_potentiale_2008}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{442dc98ffcea7a1026d6478299ea306f}
+      \strng{fullhash}{442dc98ffcea7a1026d6478299ea306f}
+      \field{sortinit}{W}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{Potentiale und Probleme von Meta-Analysen in der Soziologie}}
+      \field{journaltitle}{Sozialer Fortschritt}
+      \field{number}{10-11}
+      \field{title}{{Potentiale und Probleme von Meta-Analysen in der Soziologie}}
+      \field{volume}{57}
+      \field{year}{2008}
+      \field{pages}{250\bibrangedash 255}
+      \verb{file}
+      \verb weiss.wagner.2008-02.pdf:E:\docs\weiss.wagner.2008-02.pdf:application/pdf
+      \endverb
+      \keyw{bw}
+    \endentry
+    \entry{weis_identification_2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b9b45733c9f93049b71df5f5b246f005}{Weiß}{W\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6ea5a7032ae19a0dc619b901a2d57ac}{Wagner}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{442dc98ffcea7a1026d6478299ea306f}
+      \strng{fullhash}{442dc98ffcea7a1026d6478299ea306f}
+      \field{sortinit}{W}
+      \field{labelyear}{2011}
+      \field{labeltitle}{The Identification and Prevention of Publication Bias in the Social Sciences and Economics}
+      \field{journaltitle}{Journal of Economics and Statistics}
+      \field{number}{5-6}
+      \field{title}{The Identification and Prevention of Publication Bias in the Social Sciences and Economics}
+      \field{volume}{231}
+      \field{year}{2011}
+      \field{pages}{661\bibrangedash 684}
+      \keyw{bw}
+    \endentry
+    \entry{white_scientific_1994}{incollection}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=08292602317e1af97aeaa9a0399063f7}{White}{W\bibinitperiod}{Howard\bibnamedelima D.}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=08292602317e1af97aeaa9a0399063f7}{White}{W\bibinitperiod}{Howard\bibnamedelima D.}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0a23139acbe0f19d8892deeedc066b4e}{Cooper}{C\bibinitperiod}{Harris\bibnamedelima M.}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c4fc593bd1d7995e67cdb39f2db33405}{Hedges}{H\bibinitperiod}{Larry\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Russel Sage Foundation}%
+      }
+      \strng{namehash}{47bfa14b4be23a3e1ce67df7981edcba}
+      \strng{fullhash}{31536b4c03396787fe9cc8b220757c59}
+      \field{sortinit}{W}
+      \field{labelyear}{1994}
+      \field{labeltitle}{Scientific Communication and Literature Retrieval}
+      \field{annotation}{white1994}
+      \field{booktitle}{The Handbook of Research Synthesis}
+      \field{isbn}{0-87154-226-9}
+      \field{title}{Scientific Communication and Literature Retrieval}
+      \field{year}{1994}
+      \field{pages}{41\bibrangedash 55}
+      \keyw{Meta-Analyse, Soziologie}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

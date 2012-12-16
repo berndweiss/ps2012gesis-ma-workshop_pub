@@ -1,0 +1,85 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.24pt}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Notwendigkeit von Forschungssynthesen}{17}{2}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Begriffliche und konzeptionelle Grundlagen}{24}{2}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Vorteile von Forschungssynthesen}{37}{2}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Kritik an Forschungssynthesen und Meta-Analysen}{41}{2}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Der sozialwissenschaftliche Forschungsprozess}{46}{3}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Forschungsfrage}{50}{3}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Datenerhebung: Literatur- und Studienrecherche}{56}{3}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {7}{1}{Recherchestrategien}{59}{3}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {7}{2}{Bewertung und Auswahlkriterien}{68}{3}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {7}{3}{Dokumentation der Recherche und Verwaltung der Quellen}{73}{3}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {7}{4}{Stichprobenselektivit\IeC {\"a}t}{77}{3}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Datenvercodung/-eingabe und Effektst\IeC {\"a}rken}{79}{3}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{Effektst\IeC {\"a}rken (ES)}{92}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{1}{Effektst\IeC {\"a}rken der $r$-Familie}{95}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{2}{Effektst\IeC {\"a}rken der $d$-Familie}{101}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{3}{Kategoriale Effektst\IeC {\"a}rken}{110}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{4}{Regressionskoeffizienten}{117}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{5}{Effektst\IeC {\"a}rkenkonvertierung}{126}{3}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {10}{Befundsynthese von Aggregatdaten}{133}{4}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {10}{1}{Fixed-effects model (FEM)}{136}{4}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {10}{2}{Random-effects model (REM)}{141}{4}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {11}{Begriff der Heterogenit\IeC {\"a}t und Diagnostik}{154}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {11}{1}{\IeC {\"U}berblick}{155}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {11}{2}{Die Zwischenstudienvarianz}{160}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {11}{3}{Die $Q$- Statistik}{164}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {11}{4}{Weitere Heterogenit\IeC {\"a}tsma\IeC {\ss }e: $H^2$ und $I^2$}{172}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {11}{5}{Zusammenfassung Heterogenit\IeC {\"a}tsma\IeC {\ss }e}{179}{4}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {12}{Heterogenit\IeC {\"a}tsaufkl\IeC {\"a}rung}{186}{4}{12}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {12}{1}{Meta-Regression}{188}{4}{12}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {12}{2}{ANOVA-\IeC {\"a}hnliche Verfahren}{202}{4}{12}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {12}{3}{Weitere Bemerkungen zu Verfahren der Heterogenit\IeC {\"a}tsaufkl\IeC {\"a}rung}{210}{4}{12}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {13}{Publication Bias}{213}{4}{13}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {14}{Reporting Standards}{228}{4}{14}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {15}{Ein Ausblick auf Meta-Analysen mit Individualdaten}{237}{4}{15}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {16}{Literatur}{245}{4}{16}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {18}{Meta-Analyse-Software f\IeC {\"u}r R und Stata}{257}{5}{17}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {19}{R in 20 Minuten}{261}{5}{18}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {20}{Statistische Grundlagen}{276}{5}{19}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {20}{1}{Der Standardfehler}{277}{5}{19}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {20}{2}{Wahrscheinlichkeitsverteilungen und Q-Test}{280}{5}{19}
