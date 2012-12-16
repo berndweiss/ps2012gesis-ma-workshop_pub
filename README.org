@@ -20,7 +20,7 @@
   =src/= zu finden.
 
   Um die Folien (siehe =/slide=) bzw. die Übungsblätter (siehe =/assign=)
-  erneut zu erstellen, kann das Skript =makeAll= in =/= genutzt
+  erneut zu erstellen, können die Skripte =makeSlides= und =makeAssign= in =/src/tex= genutzt
   werden. Dafür wird die folgende Software benötigt: LaTeX, R, biber,
   bash. 
 
