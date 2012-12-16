@@ -1,6 +1,6 @@
-#+title: Materialien zum GESIS Workshop "Grundlagen sozialwissenschaftlicher Meta-Analysen" 
-#+author: Bernd Weiß
-#+date: 13./14. Dezember 2012
+#+TITLE: Materialien zum GESIS Workshop "Grundlagen sozialwissenschaftlicher Meta-Analysen" 
+#+AUTHOR: Bernd Weiß
+#+DATE: 13./14. Dezember 2012
 
 
 * Übersicht
@@ -28,3 +28,15 @@
   Der Download sämtlicher Materialien ist auf zweierlei Wegen möglich: 
   - =git clone ...=
   - Als zip-Archiv (siehe ZIP Button oberhalb der Datei-/Verzeichnisliste)
+
+* Datensätze
+  Im Verzeichnis =data/= sind zwei Datensätze enthalten:
+
+  - =dBCG.csv= (Quelle: Colditz GA, B. T. (1994). Efficacy of bcg vaccine in the
+    prevention of tuberculosis: Meta-analysis of the published literature. JAMA:
+    The Journal of the American Medical Association, 271(9),
+    698–702. doi:10.1001/jama.1994.03510330076038; basiert auf dem Datensatz im
+    R Paket =metafor=)
+  - =dVerbAb.csv= (Quelle: Aloe, A. M., & Becker, B. J. (2009). Teacher Verbal
+    Ability and School Outcomes. Educational Researcher, 38(8), 612
+    –624. doi:10.3102/0013189X09353939)
